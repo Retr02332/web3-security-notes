@@ -400,3 +400,9 @@ To use it and interact with a contract, use the following commands:
 - `const contract = new web3.eth.Contract(abi, address)`.
 
 Now you will be able to call the functions from web3.js
+
+### rekt.news
+
+To stay up-to-date with the latest crypto hacks, (rekt.news)[https://rekt.news/] is an extremly useful resource.
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
