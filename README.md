@@ -91,6 +91,7 @@ Personal notes about Web3, Smart Contracts and Blockchains on a security point o
 - https://blog.openzeppelin.com/security-audits/
 - https://mobile.twitter.com/tornadocash/status/1204745639759884289
 - https://blog.euler.finance/uniswap-oracle-attack-simulator-42d18adf65af
+- https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
 
 ### Bug Bounty
 - https://immunefi.medium.com/
