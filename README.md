@@ -13,13 +13,13 @@ Personal notes about Web3, Smart Contracts and Blockchains on a security point o
 - Development
   - [Solidity](https://github.com/seeu-inspace/reference-web3-security/tree/main/solidity)
 - Security
+- [Tools](#tools)
 - Vulnerabilities
   - [Human errors](#human-errors)
   - [Batch Overflow](#batch-overflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
   - [Authorization issues](#authorization-issues)
   - [Use of components with known vulnerabilities](#use-of-components-with-known-vulnerabilities)
-- [Tools](#tools)
 
 ## Resources
 
