@@ -118,6 +118,70 @@ The source code of the Smart Contracts is often written in **Solidity**, an obje
 Most of the time the smart contract code is found public in a github such as `github.com/org/project/contracts/*.sol` or you can get it from Etherscan, for example by going to the contract address (such as that of the DAI token), in the Contract tab you will find the code https://etherscan.io/address/0x6b175474e89094c44da98b954eedeac495271d0f#code and contract ABI > a json which indicates how the functions of the smart contract are called.
 In any case, the source is almost always public. If it's not public, you can use an EVM bytecode decompiler such as https://ethervm.io/decompiler, just enter the contract address here.
 
+## Tools
+
+### Metamask
+
+Metamask is an application available as an extension for browsers such as Firefox and Google Chrome or even as a mobile app.
+
+It allows you to create a wallet for cryptocurrencies. It can be very useful to use a decentralized application.
+
+To install Metamask go here, and follow the instructions> https://metamask.io/
+
+To connect to a decentralized app (or DApp) the process is often the same for all applications. An example is UniSwap: unlock the Metamask application, press the Connect Wallet button and select Metamask.
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/uniswap-connect.png" width="75%" height="75%">
+
+### [Etherscan.io](https://etherscan.io)
+
+Etherscan.io is the primary reference tool for exploring the Ethereum blockchain.
+
+In a page of a Contract: 
+- In Contract Overview you can see the balance in the contract and the balance of Ethereum;
+- In More Info we can see the address of the wallet that created the contract and with which transaction. Lastly, the token tracker;
+- Below you can see the transactions with method (=> what was done in that transaction), also divided by the various ERC20 tokens and Analytics;
+- Another tab is "Contract", where you can see the code of the smart contract, ABI and EVM Bytecode
+
+For other types of addresses (wallet and token tracker) there aren't other relevant details.
+
+### [remix.ethereum.org](https://remix.ethereum.org)
+
+An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for testing functions without impacting the real Smart Contract target of the tests.
+
+### Infura.io
+
+A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
+
+Once registered in https://infuria.io, go to https://infuria.io/dashboard, click 'Create New Project' at the top right. Once created, you will find yourself in the project settings. In 'Keys' you will see the endpoints to connect to a node on the Ethereum network.
+
+### Ganache
+
+To have a local test node you can use a program called ganache. To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
+
+### web3.js
+
+web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
+
+To use it and interact with a contract, use the following commands:
+- `node`;
+- `const Web3 = require('web3')`;
+- `const URL = "http://localhost:8545"`. This is the URL where the contract is deployed, insert the url from Infura.io or Ganache;
+- `const web3 = new Web3(URL)`;
+- `accounts = web3.eth.getAccounts();`
+- `var account`;
+- `accounts.then((v) => {(this.account = v[1])})`;
+- `const address = "<CONTRACT_ADDRESS>"`. Copy and paste the Contract Address;
+- `const abi = <ABI>`. Copy and paste the ABI of the Smart Contract;
+- `const contract = new web3.eth.Contract(abi, address)`.
+
+Now you will be able to call the functions from web3.js
+
+### rekt.news
+
+To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/) is an extremly useful resource.
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
+
 ## Vulnerabilities
 
 ### Human errors
@@ -343,67 +407,3 @@ function kill() public OnlyOwner{
 An outdated compiler with known vulnerabilities may have been used to compile the smart contract. Another possibility is that libraries with known vulnerabilities have been imported.
 
 Another case that I happened to see in the wild is the `import` linking libraries from github then removed. For example, an attempt was made to import SafeMath but the now outdated version was no longer present in the specified endpoint. In this case, some smart contract developers prefer to deploy without having imports that reference external enpoints.
-
-## Tools
-
-### Metamask
-
-Metamask is an application available as an extension for browsers such as Firefox and Google Chrome or even as a mobile app.
-
-It allows you to create a wallet for cryptocurrencies. It can be very useful to use a decentralized application.
-
-To install Metamask go here, and follow the instructions> https://metamask.io/
-
-To connect to a decentralized app (or DApp) the process is often the same for all applications. An example is UniSwap: unlock the Metamask application, press the Connect Wallet button and select Metamask.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/uniswap-connect.png" width="75%" height="75%">
-
-### [Etherscan.io](https://etherscan.io)
-
-Etherscan.io is the primary reference tool for exploring the Ethereum blockchain.
-
-In a page of a Contract: 
-- In Contract Overview you can see the balance in the contract and the balance of Ethereum;
-- In More Info we can see the address of the wallet that created the contract and with which transaction. Lastly, the token tracker;
-- Below you can see the transactions with method (=> what was done in that transaction), also divided by the various ERC20 tokens and Analytics;
-- Another tab is "Contract", where you can see the code of the smart contract, ABI and EVM Bytecode
-
-For other types of addresses (wallet and token tracker) there aren't other relevant details.
-
-### [remix.ethereum.org](https://remix.ethereum.org)
-
-An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for testing functions without impacting the real Smart Contract target of the tests.
-
-### Infura.io
-
-A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
-
-Once registered in https://infuria.io, go to https://infuria.io/dashboard, click 'Create New Project' at the top right. Once created, you will find yourself in the project settings. In 'Keys' you will see the endpoints to connect to a node on the Ethereum network.
-
-### Ganache
-
-To have a local test node you can use a program called ganache. To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
-
-### web3.js
-
-web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
-
-To use it and interact with a contract, use the following commands:
-- `node`;
-- `const Web3 = require('web3')`;
-- `const URL = "http://localhost:8545"`. This is the URL where the contract is deployed, insert the url from Infura.io or Ganache;
-- `const web3 = new Web3(URL)`;
-- `accounts = web3.eth.getAccounts();`
-- `var account`;
-- `accounts.then((v) => {(this.account = v[1])})`;
-- `const address = "<CONTRACT_ADDRESS>"`. Copy and paste the Contract Address;
-- `const abi = <ABI>`. Copy and paste the ABI of the Smart Contract;
-- `const contract = new web3.eth.Contract(abi, address)`.
-
-Now you will be able to call the functions from web3.js
-
-### rekt.news
-
-To stay up-to-date with the latest crypto hacks, (rekt.news)[https://rekt.news/] is an extremly useful resource.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
