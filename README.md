@@ -16,7 +16,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - [Tools](#tools)
 - Vulnerabilities
   - [Human errors](#human-errors)
-  - [Batch Overflow](#batch-overflow)
+  - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
   - [Authorization issues](#authorization-issues)
   - [Use of components with known vulnerabilities](#use-of-components-with-known-vulnerabilities)
