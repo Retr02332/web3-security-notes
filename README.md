@@ -1,5 +1,5 @@
 # Web3 security notes
-Personal notes about Web3, Smart Contracts and Blockchains on a security point of view.
+Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
 
 **ToDo**
 - Imparare di più su Flash Loan Attacks
