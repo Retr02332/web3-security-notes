@@ -23,15 +23,31 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 ## Resources
 
-### rekt.news
+### News / Updates
+
+**rekt.news**
 
 To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/) is an extremly useful resource.
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
 
-- https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
-- https://swcregistry.io/
-- - https://immunefi.medium.com/
+**Immunefi's blog**
+
+https://immunefi.medium.com/
+
+**SWC Registry**
+
+https://swcregistry.io/
+
+
+### Public Security Audits
+
+**Halborn**
+https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
+
+**OpenZeppelin**
+https://blog.openzeppelin.com/security-audits/
+
 
 ### Courses
 
@@ -55,7 +71,6 @@ To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/)
 
 ### Smart Contract Security
 - https://consensys.github.io/smart-contract-best-practices/
-- https://github.com/ethereumbook/ethereumbook/blob/develop/09smart-contracts-security.asciidfoc
 - https://www.youtube.com/playlist?list=PLdJRkA9gCKOONBSlcifqLig_ZTyG_YLqz
 - https://github.com/OpenZeppelin/openzeppelin-contracts
 - https://arxiv.org/pdf/2008.04761.pdf
@@ -80,7 +95,6 @@ To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/)
 - https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b
 - https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/echidna#installation
 - https://betterprogramming.pub/the-encyclopedia-of-smart-contract-attacks-vulnerabilities-dfc1129fdaac
-- https://consensys.github.io/smart-contract-best-practices/known_attacks/
 - https://www.youtube.com/watch?v=ozqOlUVKL1s
 - https://www.youtube.com/watch?v=WP-EnGhIYEc
 - https://www.youtube.com/watch?v=4Mm3BCyHtDY
@@ -98,7 +112,6 @@ To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/)
 - https://github.com/openzeppelin/exploit-uniswap
 - https://github.com/tinchoabbate/function-clashing-poc
 - https://blog.openzeppelin.com/backdooring-gnosis-safe-multisig-wallets/
-- https://blog.openzeppelin.com/security-audits/
 - https://mobile.twitter.com/tornadocash/status/1204745639759884289
 - https://blog.euler.finance/uniswap-oracle-attack-simulator-42d18adf65af
 
