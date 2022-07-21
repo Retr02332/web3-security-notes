@@ -23,30 +23,15 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 ## Resources
 
-### News / Updates
+**SWC Registry** Smart Contract Weakness Classification and Test Cases <br/>[swcregistry.io](https://swcregistry.io/)
 
-**rekt.news**
+**rekt.news** To stay up-to-date with the latest crypto hacks <br/> [rekt.news](https://rekt.news/)
 
-To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/) is an extremly useful resource.
+**Immunefi's blog** Web3's leading bug bounty platform's blog  <br/> [immunefi.medium.com](https://immunefi.medium.com/)
 
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
+**Halborn's public Security Audits** <br/> https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
 
-**Immunefi's blog**
-
-https://immunefi.medium.com/
-
-**SWC Registry**
-
-https://swcregistry.io/
-
-
-### Public Security Audits
-
-**Halborn**
-https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
-
-**OpenZeppelin**
-https://blog.openzeppelin.com/security-audits/
+**OpenZeppelin's public Security Audits** <br/> https://blog.openzeppelin.com/security-audits/
 
 
 ### Courses
