@@ -7,8 +7,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 **Index**
 - [Resources](#Resources)
 - [Introduction](#Introduction)
-- Development
-  - [Solidity](https://github.com/seeu-inspace/reference-web3-security/tree/main/solidity)
+- [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - Security
 - [Tools](#tools)
 - Vulnerabilities
