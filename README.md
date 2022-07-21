@@ -29,11 +29,11 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 **Immunefi's blog** Web3's leading bug bounty platform's blog  <br/> [immunefi.medium.com](https://immunefi.medium.com/)
 
-**Halborn's public Security Audits** <br/> https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
+**Halborn's public Security Audits** <br/> [github.com/HalbornSecurity/PublicReports](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 
-**OpenZeppelin's public Security Audits** <br/> https://blog.openzeppelin.com/security-audits/
+**OpenZeppelin's public Security Audits** <br/> [blog.openzeppelin.com/security-audits](https://blog.openzeppelin.com/security-audits/)
 
-**SEC554: Blockchain and Smart Contract Security** <br/> https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/
+**SEC554: Blockchain and Smart Contract Security** <br/> [sans.org/cyber-security-courses/blockchain-smart-contract-security/](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/)
 
 ### Ethereum
 
