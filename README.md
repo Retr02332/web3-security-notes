@@ -355,9 +355,18 @@ function kill() public {
 }
 ```
 
-An example of how problematic this can become:
+Here's how problematic this can become:
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/eth-noob-kill-function.png" width="50%" height="50%">
+
+
+Another example is a function like `initContract()`, a common pattern used to identify the owner of a Smart Contract to grant major privileges. It designates the address which initializes it as the contract's owner, but the problem is that the initialization function can be called by anyone, even after it has already been called.
+
+```
+function initContract() public {
+	owner = msg.sender;
+}
+```
 
 
 **Remediation**
