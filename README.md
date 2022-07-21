@@ -2,9 +2,6 @@
 Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
 
 **ToDo**
-- Imparare di più su Flash Loan Attacks
-  - https://www.youtube.com/watch?v=NifGKCiiX3E
-  - https://medium.com/coinmonks/how-i-run-a-polygon-node-for-flashloan-bots-71229e1a905d
 - Continuare con questa playlist https://www.youtube.com/watch?v=_aXumgdpnPU&list=PLD_RqipW0-9usElaE6DZEkMpzUM2HJv2v&index=6
 
 **Index**
