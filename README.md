@@ -33,10 +33,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 **OpenZeppelin's public Security Audits** <br/> https://blog.openzeppelin.com/security-audits/
 
-
-### Courses
-
-- https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/
+**SEC554: Blockchain and Smart Contract Security** <br/> https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/
 
 ### Ethereum
 
