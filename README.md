@@ -10,7 +10,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - [Introduction](#Introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - Security
-- Tools
+- [Tools](#tools)
   - [Metamask](#metamask)
   - [Etherscan.io](#etherscanio)
   - [Remix](#remix)
@@ -18,7 +18,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
   - Mythril
-- Vulnerabilities
+- [Vulnerabilities](#vulnerabilities)
   - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
