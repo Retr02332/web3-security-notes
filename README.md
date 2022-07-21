@@ -15,7 +15,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
   - [Remix](#remix)
   - [Infura.io](#infuraio)
   - [Ganache](#ganache)
-  - [Web3.js](#web3.js)
+  - [Web3.js](#web3js)
   - Mythril
 - Vulnerabilities
   - [Human errors](#human-errors)
