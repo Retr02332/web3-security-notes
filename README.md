@@ -9,7 +9,14 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - [Introduction](#Introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - Security
-- [Tools](#tools)
+- Tools
+  - [Metamask](#metamask)
+  - [Etherscan.io](#etherscanio)
+  - [Remix](#remix)
+  - [Infura.io](#infuraio)
+  - [Ganache](#ganache)
+  - [Web3.js](#web3.js)
+  - Mythril
 - Vulnerabilities
   - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
@@ -140,9 +147,9 @@ In a page of a Contract:
 
 For other types of addresses (wallet and token tracker) there aren't other relevant details.
 
-### [remix.ethereum.org](https://remix.ethereum.org)
+### Remix
 
-An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for testing functions without impacting the real Smart Contract target of the tests.
+An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for testing functions without impacting the real Smart Contract target of the tests.<br>[remix.ethereum.org](https://remix.ethereum.org)
 
 ### Infura.io
 
