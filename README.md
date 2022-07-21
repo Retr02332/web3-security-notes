@@ -64,19 +64,12 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 ### Blockchain Penetration Testing
 - https://www.youtube.com/playlist?list=PLCwnLq3tOElpIi6Gci36PnvrrS8ljBHkq
-- https://www.youtube.com/watch?v=WIEessi3ntk
-- https://www.youtube.com/watch?v=bTPouSkrhIM
-- https://www.youtube.com/watch?v=BZXv3kUygNU
 - https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/14118/HT-F02_Advanced-Smart-Contract-Hacking-FINAL.pdf > https://www.youtube.com/watch?v=IOUnhCTw6tE
-- https://medium.com/@JusDev1988/reentrancy-attack-on-a-smart-contract-677eae1300f2
 - https://github.com/smartdec/classification
 - https://www.shielder.com/blog/2022/04/a-sneak-peek-into-smart-contracts-reversing-and-emulation/
 - https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b
 - https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/echidna#installation
 - https://betterprogramming.pub/the-encyclopedia-of-smart-contract-attacks-vulnerabilities-dfc1129fdaac
-- https://www.youtube.com/watch?v=ozqOlUVKL1s
-- https://www.youtube.com/watch?v=WP-EnGhIYEc
-- https://www.youtube.com/watch?v=4Mm3BCyHtDY
 
 ### Laboratories
 - https://www.damnvulnerabledefi.xyz/
