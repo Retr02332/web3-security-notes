@@ -87,10 +87,6 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - https://mobile.twitter.com/tornadocash/status/1204745639759884289
 - https://blog.euler.finance/uniswap-oracle-attack-simulator-42d18adf65af
 
-### Bug Bounty
-- https://medium.com/immunefi/how-robert-forster-of-armor-finds-big-bugs-36656ab7b82c
-- https://blog.yeswehack.com/yeswerhackers/getting-started-smart-contract-bug-bounty/
-
 ## Introduction
 
 The **Blockchain** is a set of technologies in which the ledger is structured as a chain of blocks containing transactions and consensus distributed on all nodes of the network. All nodes can participate in the validation process of transactions to be included in the ledger.
