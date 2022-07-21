@@ -23,6 +23,16 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 ## Resources
 
+### rekt.news
+
+To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/) is an extremly useful resource.
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
+
+- https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
+- https://swcregistry.io/
+- - https://immunefi.medium.com/
+
 ### Courses
 
 - https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/
@@ -91,10 +101,8 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - https://blog.openzeppelin.com/security-audits/
 - https://mobile.twitter.com/tornadocash/status/1204745639759884289
 - https://blog.euler.finance/uniswap-oracle-attack-simulator-42d18adf65af
-- https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits
 
 ### Bug Bounty
-- https://immunefi.medium.com/
 - https://medium.com/immunefi/how-robert-forster-of-armor-finds-big-bugs-36656ab7b82c
 - https://blog.yeswehack.com/yeswerhackers/getting-started-smart-contract-bug-bounty/
 
@@ -175,12 +183,6 @@ To use it and interact with a contract, use the following commands:
 - `const contract = new web3.eth.Contract(abi, address)`.
 
 Now you will be able to call the functions from web3.js
-
-### rekt.news
-
-To stay up-to-date with the latest crypto hacks, [rekt.news](https://rekt.news/) is an extremly useful resource.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/rekt-news.png" width="75%" height="75%">
 
 ## Vulnerabilities
 
