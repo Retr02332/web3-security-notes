@@ -16,6 +16,15 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
   - [Authorization issues](#authorization-issues)
   - [Use of components with known vulnerabilities](#use-of-components-with-known-vulnerabilities)
+  - Weak Randomness
+  - Arithmetic Issues
+  - Unchecked Return Values For Low Level Calls
+  - Denial of Service
+  - Bad Randomness
+  - Front-Running
+  - Time manipulation
+  - Short Address Attack
+  - Flash Loan Attacks
 
 ## Resources
 
