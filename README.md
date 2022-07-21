@@ -63,7 +63,6 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - https://blocksecteam.medium.com/when-safetransfer-becomes-unsafe-lesson-from-the-qbridge-security-incident-c32ecd3ce9da
 
 ### Blockchain Penetration Testing
-- https://dasp.co/
 - https://blog.positive.com/predicting-random-numbers-in-ethereum-smart-contracts-e5358c6b8620
 - https://www.youtube.com/playlist?list=PLCwnLq3tOElpIi6Gci36PnvrrS8ljBHkq
 - https://www.youtube.com/watch?v=P8LXLoTUJ5g
