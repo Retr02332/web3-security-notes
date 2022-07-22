@@ -14,10 +14,14 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
   - [Metamask](#metamask)
   - [Etherscan.io](#etherscanio)
   - [Remix](#remix)
+  - Hardhat
   - [Infura.io](#infuraio)
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
+  - solgraph
   - Mythril
+  - MythX
+  - Slither
 - [Vulnerabilities](#vulnerabilities)
   - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
