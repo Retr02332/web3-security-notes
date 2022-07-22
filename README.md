@@ -18,7 +18,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
   - [Infura.io](#infuraio)
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
-  - solgraph
+  - Solgraph
   - Mythril
   - MythX
   - Slither
