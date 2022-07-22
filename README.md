@@ -28,13 +28,13 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
   - [Authorization issues](#authorization-issues)
   - [Use of components with known vulnerabilities](#use-of-components-with-known-vulnerabilities)
   - [Weak Randomness](#weak-randomness)
+  - Flash Loan Attacks
   - Unchecked Return Values For Low Level Calls
   - Denial of Service
   - Bad Randomness
   - Front-Running
   - Time manipulation
   - Short Address Attack
-  - Flash Loan Attacks
 
 ## Resources
 
