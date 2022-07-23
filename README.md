@@ -42,7 +42,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 **rekt.news** To stay up-to-date with the latest crypto hacks <br/> [rekt.news](https://rekt.news/)
 
-**Blogs** <br/> [Immunefi's blog](https://immunefi.medium.com/) <br/> [Halborn's blog](https://halborn.com/blog/) <br/> [OpenZeppelin's blog](https://blog.openzeppelin.com/) <br/> [SlowMist's blog](https://slowmist.medium.com/)
+**Blogs** <br/> [Immunefi's blog](https://immunefi.medium.com/) | [Halborn's blog](https://halborn.com/blog/) | [OpenZeppelin's blog](https://blog.openzeppelin.com/) | [SlowMist's blog](https://slowmist.medium.com/)
 
 **Halborn's public Security Audits** <br/> [github.com/HalbornSecurity/PublicReports](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 
