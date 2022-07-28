@@ -56,6 +56,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA/videos
 - https://blog.thallo.io/ethers-js-cheatsheet-skip-the-learning-curve-4abc11729d98
 - https://medium.com/@shub.sharma350/gas-optimizations-in-smart-contracts-a894768b274c
+- https://blockgeeks.com/guides/smart-contract-development-part-2/
 
 ### Rust
 
