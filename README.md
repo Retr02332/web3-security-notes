@@ -9,6 +9,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 - [ ] Finire sezione development (magari metterla direttamente nel README.md)
 - [ ] Completare la sezione tools
 - [ ] Completare la sezione vulnerabilità
+- [ ] A fine capitolo mettere un return to index
 
 **Index**
 - [Resources](#Resources)
