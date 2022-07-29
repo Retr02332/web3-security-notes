@@ -1,9 +1,15 @@
 # Web3 security notes
+![language](https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security)
+
 Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
+
+https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security
 
 **ToDo**
 - [ ] Continuare con questa playlist https://www.youtube.com/watch?v=_aXumgdpnPU&list=PLD_RqipW0-9usElaE6DZEkMpzUM2HJv2v&index=6
-- [ ] Completare tutte le sezioni
+- [ ] Finire sezione development (magari metterla direttamente nel README.md)
+- [ ] Completare la sezione tools
+- [ ] Completare la sezione vulnerabilità
 
 **Index**
 - [Resources](#Resources)
