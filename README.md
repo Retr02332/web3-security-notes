@@ -207,7 +207,7 @@ A real example of this attack: Beauty Chain exploit https://etherscan.io/tx/0xad
 
 The function vulnerable to a Batch Overflow on Beauty Chain is `batchTransfer`.
 
-```
+```solidity
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.6.6;
 
@@ -249,7 +249,7 @@ For example, injecting the value `-1` in a `uint256` variable that stores the va
 
 As seen previously, the problem lies in the variable `amount` which, having no input controls, is subject to a Integer Overflow/Underflow. The solution to this problem is to implement a check on the value received as an input. An example is the following:
 
-```
+```solidity
 if (a == 0) return (true, 0);
 uint256 c = a * b;
 if (c / a != b) return (false, 0);
@@ -268,7 +268,7 @@ An incorrect flow first verifies that the user has a sufficient balance to execu
 
 An example:
 
-```
+```solidity
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.6.6;
     
@@ -302,7 +302,7 @@ The vulnerable function is `withdraw`. As you can see, first it checks that the 
 
 An example code of a malicious smart contract is as follows:
 
-```
+```solidity
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.6.6;
 
@@ -354,7 +354,7 @@ A function can be: External, Public, Internal or Private. Defining this aspect i
 
 A first example is the following `withdraw` function. As you can see, it does not check if the user requesting a certain amount has the funds to request the withdrawal.
 
-```
+```solidity
 function withdraw(uint amount) public payable {
 	msg.sender.transfer(amount);
 }
@@ -362,7 +362,7 @@ function withdraw(uint amount) public payable {
 
 Another example is the following `kill()` function. The `kill` function contains the method `selfdestruct` that allows to withdraw all the contract funds in the user's balance which activates the functionality and invalidates the smart contract. Since this function is public, any user can have access to it.
 
-```
+```solidity
 function kill() public {
 	selfdestruct(msg.sender);
 }
@@ -375,7 +375,7 @@ Here's how problematic this can become:
 
 Another example is a function like `initContract()`, a common pattern used to identify the owner of a Smart Contract to grant major privileges. It designates the address which initializes it as the contract's owner, but the problem is that the initialization function can be called by anyone, even after it has already been called.
 
-```
+```solidity
 function initContract() public {
 	owner = msg.sender;
 }
@@ -388,7 +388,7 @@ A solution for the first scenario is very simple, it just needs a check to be im
 
 For the second example, you can add the following modifier. In the modifier there is the condition that whoever is carrying out the function must be the owner of the contract.
 
-```
+```solidity
 address owner;
 
 modifier OnlyOwner(){
@@ -401,7 +401,7 @@ modifier OnlyOwner(){
 
 So the fixed code would look like this:
 
-```
+```solidity
 mapping (address =>uint) balances;
     
 address owner;
@@ -434,7 +434,7 @@ As of now, two methods are commonly used to acquire Randomness:
 
 How it's composed a block variable:
 
-```
+```solidity
 block.basefee(uint): the base fee for the current block
 block.chainid(uint): current chain ID
 block.coinbase(): current block miner address, address payable
@@ -461,7 +461,7 @@ That said, oracles are the most reliable way to have strong randomness.
 
 **Example of an unsecure smart contract**
 
-```
+```solidity
 pragma solidity ^0.8.13;
 
 contract GuessTheRandomNumber { 
@@ -478,7 +478,7 @@ contract GuessTheRandomNumber {
 
 The contract deployer uses the block hash and block time of the previous block as the random number seed to generate Randomness. So an attacker needs to simulate his random number generation method to be rewarded. The attacker smart contract:
 
-```
+```solidity
 pragma solidity ^0.8.13;
 
 contract Attack { 
@@ -504,7 +504,7 @@ If the random number belongs to a non-core enterprise, you can use the hash of t
 
 An example of the fixed example comes from [SlowMist's blog](https://slowmist.medium.com/introduction-to-smart-contract-security-randomness-792cf8997599#6bf1)
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
