@@ -1,5 +1,6 @@
-# Web3 security notes
-![language](https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security)
+# <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/web3-security-notes.png" width="45%" height="45%" alt="Web3 security notes">
+
+![last-commit](https://img.shields.io/github/last-commit/seeu-inspace/reference-web3-security) ![languages](https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security) ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 
 Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
 
