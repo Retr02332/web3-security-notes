@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/web3-security-notes.png" width="50%" height="50%" alt="Web3 security notes">
+# <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/imageedit_1_9145047177.png" alt="Web3 security notes">
 
 ![last-commit](https://img.shields.io/github/last-commit/seeu-inspace/reference-web3-security) ![languages](https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security) ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 
