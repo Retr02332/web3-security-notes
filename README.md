@@ -4,13 +4,6 @@
 
 Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
 
-**ToDo**
-- [ ] Continuare con questa playlist https://www.youtube.com/watch?v=_aXumgdpnPU&list=PLD_RqipW0-9usElaE6DZEkMpzUM2HJv2v&index=6
-- [ ] Finire sezione development
-- [ ] Completare la sezione tools
-- [ ] Completare la sezione vulnerabilità
-- [ ] A fine capitolo mettere un return to index
-
 **Index**
 - [Resources](#Resources)
 - [Introduction](#Introduction)
