@@ -55,8 +55,6 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 **OpenZeppelin's public Security Audits** <br/> [blog.openzeppelin.com/security-audits](https://blog.openzeppelin.com/security-audits/)
 
-**SEC554: Blockchain and Smart Contract Security** <br/> [sans.org/cyber-security-courses/blockchain-smart-contract-security/](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/)
-
 ## Introduction
 
 The **Blockchain** is a set of technologies in which the ledger is structured as a chain of blocks containing transactions and consensus distributed on all nodes of the network. All nodes can participate in the validation process of transactions to be included in the ledger.
