@@ -57,59 +57,6 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 **SEC554: Blockchain and Smart Contract Security** <br/> [sans.org/cyber-security-courses/blockchain-smart-contract-security/](https://www.sans.org/cyber-security-courses/blockchain-smart-contract-security/)
 
-### Ethereum
-
-- https://github.com/ethereumbook/ethereumbook
-- https://www.youtube.com/channel/UCJWh7F3AFyQ_x01VKzr9eyA/videos
-- https://blog.thallo.io/ethers-js-cheatsheet-skip-the-learning-curve-4abc11729d98
-- https://medium.com/@shub.sharma350/gas-optimizations-in-smart-contracts-a894768b274c
-- https://blockgeeks.com/guides/smart-contract-development-part-2/
-
-### Rust
-
-- https://www.youtube.com/watch?v=MsocPEZBd-M
-
-### Vyper
-
-- https://www.youtube.com/watch?v=Y6o9kNqRV2Y&list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1
-- https://github.com/vyperlang/vyper
-
-### Smart Contract Security
-- https://consensys.github.io/smart-contract-best-practices/
-- https://www.youtube.com/playlist?list=PLdJRkA9gCKOONBSlcifqLig_ZTyG_YLqz
-- https://github.com/OpenZeppelin/openzeppelin-contracts
-- https://arxiv.org/pdf/2008.04761.pdf
-- https://ethereum.org/en/developers/docs/smart-contracts/security/
-- https://consensys.github.io/smart-contract-best-practices/
-- https://www.youtube.com/watch?v=dDispC5aOMs&list=PLS01nW3RtgopsMpAceFwuyLKH42VW0Nw9
-- https://www.youtube.com/watch?v=T7VQI5EW6ZY&list=PLS01nW3Rtgoos65Y38qr9is9fqnoJ2tmU
-- https://blocksecteam.medium.com/when-safetransfer-becomes-unsafe-lesson-from-the-qbridge-security-incident-c32ecd3ce9da
-
-### Blockchain Penetration Testing
-- https://www.youtube.com/playlist?list=PLCwnLq3tOElpIi6Gci36PnvrrS8ljBHkq
-- https://published-prd.lanyonevents.com/published/rsaus19/sessionsFiles/14118/HT-F02_Advanced-Smart-Contract-Hacking-FINAL.pdf > https://www.youtube.com/watch?v=IOUnhCTw6tE
-- https://github.com/smartdec/classification
-- https://www.shielder.com/blog/2022/04/a-sneak-peek-into-smart-contracts-reversing-and-emulation/
-- https://medium.com/immunefi/hacking-the-blockchain-an-ultimate-guide-4f34b33c6e8b
-- https://github.com/crytic/building-secure-contracts/tree/master/program-analysis/echidna#installation
-- https://betterprogramming.pub/the-encyclopedia-of-smart-contract-attacks-vulnerabilities-dfc1129fdaac
-
-### Laboratories
-- https://www.damnvulnerabledefi.xyz/
-  - https://www.youtube.com/watch?v=A5s9aez43Co&list=PLO5VPQH6OWdXKPThrch6U0imGdD3pHLXi 
-- https://gitlab.com/badbounty/dvcw
-- https://ethernaut.openzeppelin.com/
-- https://ctf.paradigm.xyz/
-- https://github.com/tinchoabbate/defcon28-talk-challenge
-- https://github.com/blockthreat/blocksec-ctfs
-
-### Exploitation / PT examples
-- https://github.com/openzeppelin/exploit-uniswap
-- https://github.com/tinchoabbate/function-clashing-poc
-- https://blog.openzeppelin.com/backdooring-gnosis-safe-multisig-wallets/
-- https://mobile.twitter.com/tornadocash/status/1204745639759884289
-- https://blog.euler.finance/uniswap-oracle-attack-simulator-42d18adf65af
-
 ## Introduction
 
 The **Blockchain** is a set of technologies in which the ledger is structured as a chain of blocks containing transactions and consensus distributed on all nodes of the network. All nodes can participate in the validation process of transactions to be included in the ledger.
