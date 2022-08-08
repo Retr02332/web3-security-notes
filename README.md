@@ -5,8 +5,9 @@
 Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
 
 ## Index
-- [Resources](#Resources)
-- [Introduction](#Introduction)
+
+- [Resources](#resources)
+- [Introduction](#introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - [Tools](#tools)
   - [Metamask](#metamask)
@@ -41,11 +42,11 @@ Personal notes about Web3, Smart Contracts and Blockchains from a security point
 
 **rekt.news** To stay up-to-date with the latest crypto hacks <br/> [rekt.news](https://rekt.news/)
 
-**Blogs** <br/> [Immunefi's blog](https://immunefi.medium.com/) | [Halborn's blog](https://halborn.com/blog/) | [OpenZeppelin's blog](https://blog.openzeppelin.com/) | [SlowMist's blog](https://slowmist.medium.com/)
-
-**Halborn's public Security Audits** <br/> [github.com/HalbornSecurity/PublicReports](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+**Blogs** <br/> [Immunefi's blog](https://immunefi.medium.com/) | [OpenZeppelin's blog](https://blog.openzeppelin.com/) | [Halborn's blog](https://halborn.com/blog/) | [SlowMist's blog](https://slowmist.medium.com/)
 
 **OpenZeppelin's public Security Audits** <br/> [blog.openzeppelin.com/security-audits](https://blog.openzeppelin.com/security-audits/)
+
+**Halborn's public Security Audits** <br/> [github.com/HalbornSecurity/PublicReports](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 
 ## Introduction
 
