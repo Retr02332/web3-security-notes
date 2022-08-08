@@ -4,7 +4,7 @@
 
 Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
 
-**Index**
+## Index
 - [Resources](#Resources)
 - [Introduction](#Introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
