@@ -2,7 +2,7 @@
 
 ![last-commit](https://img.shields.io/github/last-commit/seeu-inspace/reference-web3-security) ![languages](https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security) ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 
-Personal notes about Web3, Smart Contracts and Blockchains from a security point of view.
+Personal notes about Web3, Smart Contracts and Blockchains from a hacker's perspective.
 
 ## Index
 
