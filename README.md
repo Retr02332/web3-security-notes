@@ -120,7 +120,7 @@ To have a local test node you can use a program called ganache. This is a fast s
 
 To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
 
-<img src="x" width="75%" height="75%">
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ganache.png" width="75%" height="75%">
 
 ### web3.js
 
