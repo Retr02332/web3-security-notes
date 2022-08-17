@@ -13,7 +13,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a hacker's persp
   - [Metamask](#metamask)
   - [Etherscan.io](#etherscanio)
   - [Remix](#remix)
-  - Hardhat
+  - [Hardhat](#hardhat)
   - [Infura.io](#infuraio)
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
@@ -31,7 +31,6 @@ Personal notes about Web3, Smart Contracts and Blockchains from a hacker's persp
   - Flash Loan Attacks
   - Unchecked Return Values For Low Level Calls
   - Denial of Service
-  - Bad Randomness
   - Front-Running
   - Time manipulation
   - Short Address Attack
