@@ -104,7 +104,7 @@ For other types of addresses (wallet and token tracker) there aren't other relev
 
 An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for manual testing without impacting the real Smart Contract target of the tests. It can also be used to deploy the Smart Contracts in local test nodes.
 
-<br>[remix.ethereum.org](https://remix.ethereum.org)
+[remix.ethereum.org](https://remix.ethereum.org)
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/remix.png" width="75%" height="75%">
 
