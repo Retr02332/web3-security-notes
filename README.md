@@ -98,9 +98,15 @@ In a page of a Contract:
 
 For other types of addresses (wallet and token tracker) there aren't other relevant details.
 
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/etherscan.png" width="75%" height="75%">
+
 ### Remix
 
-An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for testing functions without impacting the real Smart Contract target of the tests.<br>[remix.ethereum.org](https://remix.ethereum.org)
+An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for manual testing without impacting the real Smart Contract target of the tests. It can also be used to deploy the Smart Contracts in local test nodes.
+
+<br>[remix.ethereum.org](https://remix.ethereum.org)
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/remix.png" width="75%" height="75%">
 
 ### Infura.io
 
@@ -110,7 +116,11 @@ Once registered in https://infuria.io, go to https://infuria.io/dashboard, click
 
 ### Ganache
 
-To have a local test node you can use a program called ganache. To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
+To have a local test node you can use a program called ganache. This is a fast solution to deploy and test a dApp in total safety.
+
+To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
+
+<img src="x" width="75%" height="75%">
 
 ### web3.js
 
