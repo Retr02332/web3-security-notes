@@ -21,6 +21,7 @@ Personal notes about Web3, Smart Contracts and Blockchains from a hacker's persp
   - Mythril
   - MythX
   - Slither
+  - [OpenZeppelin contracts](#openzeppelin-contracts)
 - [Vulnerabilities](#vulnerabilities)
   - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
@@ -162,6 +163,18 @@ To use it and interact with a contract, use the following commands:
 - `const contract = new web3.eth.Contract(abi, address)`.
 
 Now you will be able to call the functions from web3.js
+
+### OpenZeppelin contracts
+
+"OpenZeppelin contracts" is a library for secure smart contract development. A famous example is [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) wich helps to fix [Integer Overflow / Underflow](#integer-overflow--underflow)
+Once installed, you can use the contracts in the library by importing them:
+
+```solidity
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+```
+
+Resource: https://github.com/OpenZeppelin/openzeppelin-contracts
+
 
 ## Vulnerabilities
 
