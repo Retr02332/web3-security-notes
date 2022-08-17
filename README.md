@@ -166,6 +166,8 @@ To use it and interact with a contract, use the following commands:
 
 Now you will be able to call the functions from web3.js
 
+Resource: https://web3js.readthedocs.io/en/v1.7.5/
+
 ### OpenZeppelin contracts
 
 "OpenZeppelin contracts" is a library for secure smart contract development. A famous example is [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) which helps to fix [Integer Overflow / Underflow](#integer-overflow--underflow). Once installed, you can use the contracts in the library by importing them:
