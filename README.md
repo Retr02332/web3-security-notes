@@ -85,7 +85,7 @@ In any case, the source is almost always public. If it's not public, you can use
 
 - **hard fork** A permanent divergence in the blockchain; also known as a hard-forking change. One commonly occurs when nonupgraded nodes can't validate blocks created by upgraded nodes that follow newer consensus rules. Not to be confused with a fork, soft fork, software fork, or Git fork.
 
-- **wei** The smallest denomination of ether. 1018 wei = 1 ether.
+- **wei** The smallest denomination of ether. 10<sup>18</sup> wei = 1 ether.
 
 You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glossary/)
 
