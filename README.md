@@ -108,6 +108,12 @@ An IDE that provides a compiler, debugger, and various test accounts with some $
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/remix.png" width="75%" height="75%">
 
+### Hardhat
+
+Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment. [Installation](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/hardhat.png" width="75%" height="75%">
+
 ### Infura.io
 
 A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
