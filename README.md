@@ -146,6 +146,8 @@ To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ganache.png" width="75%" height="75%">
 
+Resource: https://trufflesuite.com/ganache/
+
 ### web3.js
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
