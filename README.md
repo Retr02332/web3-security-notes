@@ -12,8 +12,8 @@ Personal notes about Web3 from a hacker's perspective.
   - [Etherscan.io](#etherscanio)
   - [Remix](#remix)
   - [Hardhat](#hardhat)
-  - [Truffle Suite]
-  - [Brownie]
+  - [Truffle Suite]()
+  - [Brownie]()
   - [Infura.io](#infuraio)
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
