@@ -10,11 +10,11 @@ Personal notes about Web3 from a hacker's perspective.
 - [Tools](#tools)
   - [Metamask](#metamask)
   - [Etherscan.io](#etherscanio)
-  - [EVM Codes]() https://www.evm.codes/
+  - EVM Codes https://www.evm.codes/
   - [Remix](#remix)
   - [Hardhat](#hardhat)
-  - [Truffle Suite]() https://trufflesuite.com/
-  - [Brownie]() https://eth-brownie.readthedocs.io/en/stable/
+  - Truffle Suite https://trufflesuite.com/
+  - Brownie https://eth-brownie.readthedocs.io/en/stable/
   - [Infura.io](#infuraio)
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
