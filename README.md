@@ -1,4 +1,5 @@
-# Web3 security notes ![last-commit](https://img.shields.io/github/last-commit/seeu-inspace/reference-web3-security) ![languages](https://img.shields.io/github/languages/top/seeu-inspace/reference-web3-security) ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
+# Web3 security notes 
+![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 
 Personal notes about Web3 from a hacker's perspective.
 
