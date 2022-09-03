@@ -1,5 +1,4 @@
-# Web3 security notes 
-![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
+# Web3 security notes ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 
 ## Index
 
