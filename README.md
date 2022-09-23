@@ -179,6 +179,7 @@ Usage:
 - `myth analyze <solidity-file>`
 - `myth analyze -a <contract-address>`
 - Specify the maximum number of transaction to explore with `-t <number>`
+- [More can be found here](https://mythril-classic.readthedocs.io/en/master/)
 
 An example ([source](https://github.com/ConsenSys/mythril#usage))
 ```bash
