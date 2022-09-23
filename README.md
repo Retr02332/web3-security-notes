@@ -215,7 +215,7 @@ Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 
 ### ZIION
 
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion-os.jpg" width="45%" height="45%">
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion-os.jpg" width="50%" height="50%">
 
 ZIION is an open-source Operating System with Kali Linux as a reference point, built for Web3 PenTesting. It contains over 100 tools, utilities, dependencies, and packages to immediately begin working with Solidity/EVM and Rust-based blockchains 
 
