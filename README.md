@@ -20,6 +20,7 @@
   - [Mythril](#mythril)
   - MythX
   - Slither
+  - [ZIION](#ziion)
   - [OpenZeppelin contracts](#openzeppelin-contracts)
 - [Vulnerabilities](#vulnerabilities)
   - [Human errors](#human-errors)
@@ -211,6 +212,15 @@ Caller: [ATTACKER], function: killerize(address), txdata: 0x9fa299cc000000000000
 Caller: [ATTACKER], function: activatekillability(), txdata: 0x84057065, value: 0x0
 Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 ```
+
+### ZIION
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion.png" width="75%" height="75%">
+
+ZIION is an open-source Operating System with Kali Linux as a reference point, built for Web3 PenTesting. It contains over 100 tools, utilities, dependencies, and packages to immediately begin working with Solidity/EVM and Rust-based blockchains 
+
+Link: https://www.ziion.org/
+Documentation: https://docs.ziion.org/
 
 ### OpenZeppelin contracts
 
