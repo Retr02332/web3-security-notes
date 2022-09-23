@@ -17,7 +17,7 @@
   - [Ganache](#ganache)
   - [Web3.js](#web3js)
   - Solgraph
-  - Mythril
+  - [Mythril](#mythril)
   - MythX
   - Slither
   - [OpenZeppelin contracts](#openzeppelin-contracts)
@@ -168,6 +168,48 @@ To use it and interact with a contract, use the following commands:
 Now you will be able to call the functions from web3.js
 
 Resource: https://web3js.readthedocs.io/en/v1.7.5/
+
+### Mythril
+
+Mythril is a security analysis tool for EVM bytecode. It detects security vulnerabilities in smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains.
+
+To install it `pip3 install mythril`. Then add your [infura](#infuraio) key with `myth --infura-id <INFURA_ID>`.
+
+Usage:
+- `myth analyze <solidity-file>`
+- `myth analyze -a <contract-address>`
+- Specify the maximum number of transaction to explore with `-t <number>`
+
+An example ([source](https://github.com/ConsenSys/mythril#usage))
+```bash
+> myth a killbilly.sol -t 3
+==== Unprotected Selfdestruct ====
+SWC ID: 106
+Severity: High
+Contract: KillBilly
+Function name: commencekilling()
+PC address: 354
+Estimated Gas Usage: 974 - 1399
+Any sender can cause the contract to self-destruct.
+Any sender can trigger execution of the SELFDESTRUCT instruction to destroy this contract account and withdraw its balance to an arbitrary address. Review the transaction trace generated for this issue and make sure that appropriate security controls are in place to prevent unrestricted access.
+--------------------
+In file: killbilly.sol:22
+
+selfdestruct(msg.sender)
+
+--------------------
+Initial State:
+
+Account: [CREATOR], balance: 0x2, nonce:0, storage:{}
+Account: [ATTACKER], balance: 0x1001, nonce:0, storage:{}
+
+Transaction Sequence:
+
+Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
+Caller: [ATTACKER], function: killerize(address), txdata: 0x9fa299cc000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: ('0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef',), value: 0x0
+Caller: [ATTACKER], function: activatekillability(), txdata: 0x84057065, value: 0x0
+Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
+```
 
 ### OpenZeppelin contracts
 
