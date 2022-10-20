@@ -22,7 +22,7 @@
   - Slither
   - [ZIION](#ziion)
   - [OpenZeppelin contracts](#openzeppelin-contracts)
-  - [Simple Security Toolkit]()
+  - [Simple Security Toolkit](#simple-security-toolkit)
 - [Vulnerabilities](#vulnerabilities)
   - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
