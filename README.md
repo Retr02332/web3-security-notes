@@ -41,7 +41,8 @@
 **Web3 Security Library**<br/>
 [github.com/immunefi-team/Web3-Security-Library](https://github.com/immunefi-team/Web3-Security-Library)
 
-**SWC Registry** Smart Contract Weakness Classification and Test Cases <br/> [swcregistry.io](https://swcregistry.io/)
+**Smart contract weakness classification** and Test Cases <br/>
+[swcregistry.io](https://swcregistry.io/) | [SCSV](https://securing.github.io/SCSVS/)
 
 **Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
 [rekt.news](https://rekt.news/) | [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
