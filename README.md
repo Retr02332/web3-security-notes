@@ -39,17 +39,18 @@
 ## Resources
 
 **Web3 Security Library**<br/>
-https://github.com/immunefi-team/Web3-Security-Library
+[github.com/immunefi-team/Web3-Security-Library](https://github.com/immunefi-team/Web3-Security-Library)
 
-**SWC Registry** Smart Contract Weakness Classification and Test Cases <br/>[swcregistry.io](https://swcregistry.io/)
+**SWC Registry** Smart Contract Weakness Classification and Test Cases <br/> [swcregistry.io](https://swcregistry.io/)
 
-**rekt.news** To stay up-to-date with the latest crypto hacks <br/> [rekt.news](https://rekt.news/)
+**Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
+[rekt.news](https://rekt.news/) | [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
 
-**Blogs** <br/> [Immunefi's blog](https://immunefi.medium.com/) | [OpenZeppelin's blog](https://blog.openzeppelin.com/) | [Halborn's blog](https://halborn.com/blog/) | [SlowMist's blog](https://slowmist.medium.com/)
+**Blogs** <br/> 
+[Immunefi's blog](https://immunefi.medium.com/) | [OpenZeppelin's blog](https://blog.openzeppelin.com/) | [Halborn's blog](https://halborn.com/blog/) | [SlowMist's blog](https://slowmist.medium.com/)
 
-**OpenZeppelin's public Security Audits** <br/> [blog.openzeppelin.com/security-audits](https://blog.openzeppelin.com/security-audits/)
-
-**Halborn's public Security Audits** <br/> [github.com/HalbornSecurity/PublicReports](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+**Public Security Audits** <br/> 
+[OpenZeppelin's public Security Audits](https://blog.openzeppelin.com/security-audits/) | [Halborn's public Security Audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 
 ## Introduction
 
