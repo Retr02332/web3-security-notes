@@ -22,6 +22,7 @@
   - Slither
   - [ZIION](#ziion)
   - [OpenZeppelin contracts](#openzeppelin-contracts)
+  - [Simple Security Toolkit]()
 - [Vulnerabilities](#vulnerabilities)
   - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
@@ -220,7 +221,7 @@ Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 
 ### ZIION
 
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion-os.jpg" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion-os.jpg" width="75%" height="75%">
 
 ZIION is an open-source Operating System with Kali Linux as a reference point, built for Web3 PenTesting. It contains over 100 tools, utilities, dependencies, and packages to immediately begin working with Solidity/EVM and Rust-based blockchains 
 
@@ -237,6 +238,11 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 Resource: https://github.com/OpenZeppelin/openzeppelin-contracts
 
+### Simple Security Toolkit
+
+A collection of practical security-focused guides and checklists for smart contract development, assembled by the Nascent team. Link: [github.com/nascentxyz/simple-security-toolkit](https://github.com/nascentxyz/simple-security-toolkit)
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/simple-security-toolkit.png" width="75%" height="75%">
 
 ## Vulnerabilities
 
