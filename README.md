@@ -38,6 +38,9 @@
 
 ## Resources
 
+**Web3 Security Library**<br/>
+https://github.com/immunefi-team/Web3-Security-Library
+
 **SWC Registry** Smart Contract Weakness Classification and Test Cases <br/>[swcregistry.io](https://swcregistry.io/)
 
 **rekt.news** To stay up-to-date with the latest crypto hacks <br/> [rekt.news](https://rekt.news/)
