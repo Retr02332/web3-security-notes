@@ -1,5 +1,7 @@
 # Web3 security notes ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 
+Personal notes about Web3 from a hacker's perspective. Here I gather all the resources about Web3's insecurity.
+
 ## Index
 
 - [Resources](#resources)
