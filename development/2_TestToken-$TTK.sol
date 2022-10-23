@@ -8,7 +8,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol";
 
 contract TestToken is ERC20, ERC20Burnable, Pausable, Ownable, ERC20FlashMint {
-    constructor() ERC20("TestToken", "TTT") {
+    constructor() ERC20("TestToken", "TTK") {
         _mint(msg.sender, 1000000 * 10 ** decimals());
     }
 
