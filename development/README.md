@@ -1,2 +1,2 @@
-[**1_Lottery.sol**](https://github.com/seeu-inspace/reference-web3-security/blob/main/development/1_Lottery.sol) an example of a smart contract for a lottery system written in Solidity
-[**2_EasyT.sol**](https://github.com/seeu-inspace/reference-web3-security/blob/main/development/2_EasyT.sol) Simple smart contract for a token created with [Contracts Wizard by OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/wizard)
+- [**1_Lottery.sol**](https://github.com/seeu-inspace/reference-web3-security/blob/main/development/1_Lottery.sol) an example of a smart contract for a lottery system written in Solidity
+- [**2_TestToken-$TTK.sol**](https://github.com/seeu-inspace/reference-web3-security/blob/main/development/2_TestToken-$TTK.sol) Simple smart contract for a token created with [Contracts Wizard by OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/wizard)
