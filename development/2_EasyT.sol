@@ -7,8 +7,8 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20FlashMint.sol";
 
-contract EasyT is ERC20, ERC20Burnable, Pausable, Ownable, ERC20FlashMint {
-    constructor() ERC20("EasyT", "EYT") {
+contract TestToken is ERC20, ERC20Burnable, Pausable, Ownable, ERC20FlashMint {
+    constructor() ERC20("TestToken", "TTT") {
         _mint(msg.sender, 1000000 * 10 ** decimals());
     }
 
