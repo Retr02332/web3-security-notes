@@ -491,7 +491,7 @@ An outdated compiler with known vulnerabilities may have been used to compile th
 
 Another problem is code reuse: many programmers reuse code for their applications. This means that if the copied code contains vulnerabilities, the same is true for the application it was pasted into.
 
-### Weak Randomness
+### <ins>Weak Randomness</ins>
 
 Weak Randomness arises when the attacker can predict the result of a random number. This can cause some security issues depending on the scenario.
 
