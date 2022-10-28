@@ -409,6 +409,12 @@ Implement Checks Effects Interactions Pattern: A secure code-writing pattern tha
 - Update balances and make changes before interacting with an external actor;
 - Finally, after the transaction has been validated and the changes have been made, interactions with the external entity are allowed.
 
+#### Resources
+
+- [A Historical Collection of Reentrancy Attacks]()
+
+
+
 ### Authorization issues
 
 A function can be: External, Public, Internal or Private. Defining this aspect is very important as there is a risk of allowing potentially harmful operations or giving administrative privileges to any user.
