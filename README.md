@@ -102,7 +102,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 
 ## Tools
 
-### Metamask
+### <ins>Metamask</ins>
 
 Metamask is an application available as an extension for browsers such as Firefox and Google Chrome or even as a mobile app.
 
@@ -114,7 +114,7 @@ To connect to a decentralized app (or DApp) the process is often the same for al
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/uniswap-connect.png" width="75%" height="75%">
 
-### [Etherscan.io](https://etherscan.io)
+### <ins>[Etherscan.io](https://etherscan.io)</ins>
 
 Etherscan.io is the primary reference tool for exploring the Ethereum blockchain.
 
@@ -128,7 +128,7 @@ For other types of addresses (wallet and token tracker) there aren't other relev
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/etherscan.png" width="75%" height="75%">
 
-### Remix
+### <ins>Remix</ins>
 
 An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for manual testing without impacting the real Smart Contract target of the tests. It can also be used to deploy the Smart Contracts in local test nodes.
 
@@ -136,19 +136,19 @@ An IDE that provides a compiler, debugger, and various test accounts with some $
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/remix.png" width="75%" height="75%">
 
-### Hardhat
+### <ins>Hardhat</ins>
 
 Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment. [Installation](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/hardhat.png" width="75%" height="75%">
 
-### Infura.io
+### <ins>Infura.io</ins>
 
 A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
 
 Once registered in https://infuria.io, go to https://infuria.io/dashboard, click 'Create New Project' at the top right. Once created, you will find yourself in the project settings. In 'Keys' you will see the endpoints to connect to a node on the Ethereum network.
 
-### Ganache
+### <ins>Ganache</ins>
 
 To have a local test node you can use a program called ganache. This is a fast solution to deploy and test a dApp in total safety.
 
@@ -158,7 +158,7 @@ To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
 
 Resource: https://trufflesuite.com/ganache/
 
-### web3.js
+### <ins>web3.js</ins>
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
 
@@ -178,7 +178,7 @@ Now you will be able to call the functions from web3.js
 
 Resource: https://web3js.readthedocs.io/en/v1.7.5/
 
-### Mythril
+### <ins>Mythril</ins>
 
 Mythril is a security analysis tool for EVM bytecode. It detects security vulnerabilities in smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains.
 
@@ -221,7 +221,7 @@ Caller: [ATTACKER], function: activatekillability(), txdata: 0x84057065, value: 
 Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 ```
 
-### ZIION
+### <ins>ZIION</ins>
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion-os.jpg" width="75%" height="75%">
 
@@ -230,7 +230,7 @@ ZIION is an open-source Operating System with Kali Linux as a reference point, b
 - Link: https://www.ziion.org/
 - Documentation: https://docs.ziion.org/
 
-### OpenZeppelin contracts
+### <ins>OpenZeppelin contracts</ins>
 
 "OpenZeppelin contracts" is a library for secure smart contract development. A famous example is [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) which helps to fix [Integer Overflow / Underflow](#integer-overflow--underflow). Once installed, you can use the contracts in the library by importing them:
 
@@ -240,7 +240,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 Resource: https://github.com/OpenZeppelin/openzeppelin-contracts
 
-### Simple Security Toolkit
+### <ins>Simple Security Toolkit</ins>
 
 A collection of practical security-focused guides and checklists for smart contract development, assembled by the Nascent team. Link: [github.com/nascentxyz/simple-security-toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 
@@ -248,7 +248,7 @@ A collection of practical security-focused guides and checklists for smart contr
 
 ## Vulnerabilities
 
-### Human errors
+### <ins>Human errors</ins>
 
 When tested other types of application, an attacker does not generally have access to the backand code accordingly cannot know the names of the parameters to be used, the hidden functions etc. This is not entirely true but the fact that it is not an immediate aspect provides a false sense of security.
 For smart contracts, however, this cannot be applied. The code is always public, a function can be private and not directly accessible but it is still readable by anyone.
@@ -260,7 +260,7 @@ A smart contract has a cost. A longer code with variables of certain types rathe
 Furthermore, once a smart contract is active it is impossible to make changes. For this reason it is necessary to perform careful security checks to verify that everything is safe.
 
 
-### Integer Overflow / Underflow
+### <ins>Integer Overflow / Underflow</ins>
 
 **Integer Overflow** happens because the arithmetic value of the operation exceeds the maximum size of the variable value type. An example: the variable `amount` is `uint256`. It supports numeric values from 0 to 2 ^ 256. This means that a value like `0x8000000000000000000000000000000000000000000000000000000000000000` corresponding to the decimal value `57896044618658097711785492504343953926634992332820282019728792003956564819968` received in the input for the variable `amount` would trigger a Batch Overflow since it exceeds the maximum value supported.
 
@@ -321,7 +321,7 @@ The variable `uint256 c` is the multiplication of the address of recipient `a` b
 
 To fix this vulnerability, and other integer overflows and underflows, the [SafeMath library by OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) can be used. SafeMath provides four functions: Add, Subtract, Multiply, Divide. Each of them performs a check on the operation to verify that the data received in input is valid.
 
-### Reentrancy Vulnerabilities
+### <ins>Reentrancy Vulnerabilities</ins>
 
 A Reentrancy vulnerability is a type of attack to drain the bit-by-bit liquidity of a contract with an insecure code-writing pattern.
 
@@ -415,7 +415,7 @@ Implement Checks Effects Interactions Pattern: A secure code-writing pattern tha
 
 
 
-### Authorization issues
+### <ins>Authorization issues</ins>
 
 A function can be: External, Public, Internal or Private. Defining this aspect is very important as there is a risk of allowing potentially harmful operations or giving administrative privileges to any user.
 
@@ -485,7 +485,7 @@ function kill() public OnlyOwner{
 }
 ```
 
-### Use of components with known vulnerabilities
+### <ins>Use of components with known vulnerabilities</ins>
 
 An outdated compiler with known vulnerabilities may have been used to compile the smart contract. Another possibility is that libraries with known vulnerabilities have been imported.
 
