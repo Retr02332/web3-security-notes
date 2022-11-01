@@ -28,7 +28,6 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [OpenZeppelin contracts](#openzeppelin-contracts)
   - [Simple Security Toolkit](#simple-security-toolkit)
 - [Vulnerabilities](#vulnerabilities)
-  - [Human errors](#human-errors)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
   - [Authorization issues](#authorization-issues)
@@ -249,18 +248,6 @@ A collection of practical security-focused guides and checklists for smart contr
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/simple-security-toolkit.png" width="75%" height="75%">
 
 ## Vulnerabilities
-
-### <ins>Human errors</ins>
-
-When tested other types of application, an attacker does not generally have access to the backand code accordingly cannot know the names of the parameters to be used, the hidden functions etc. This is not entirely true but the fact that it is not an immediate aspect provides a false sense of security.
-For smart contracts, however, this cannot be applied. The code is always public, a function can be private and not directly accessible but it is still readable by anyone.
-
-
-A smart contract has a cost. A longer code with variables of certain types rather than others increases the expense of setting up the contract on a blockchain. Consequently, programmers try to optimize the code as much as possible. This can bring less safe development to be able to save on costs.
-
-
-Furthermore, once a smart contract is active it is impossible to make changes. For this reason it is necessary to perform careful security checks to verify that everything is safe.
-
 
 ### <ins>Integer Overflow / Underflow</ins>
 
