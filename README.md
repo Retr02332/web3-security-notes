@@ -33,12 +33,17 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [Authorization issues](#authorization-issues)
   - [Use of components with known vulnerabilities](#use-of-components-with-known-vulnerabilities)
   - [Weak Randomness](#weak-randomness)
+  - Oracle Manipulation
+  - Denial of Service
   - Flash Loan Attacks
   - Unchecked Return Values For Low Level Calls
   - Denial of Service
   - Front-Running
   - Time manipulation
   - Short Address Attack
+  - Griefing
+  - Deprecated/Historical
+  - Force Feeding
 
 ## Resources
 
@@ -56,6 +61,9 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 **Public Security Audits** <br/> 
 [OpenZeppelin's public Security Audits](https://blog.openzeppelin.com/security-audits/) | [Halborn's public Security Audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+
+**Smart Contract Security Verification Standard**
+Smart Contract Security Verification Standard is a free 14-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. [[Resource](https://github.com/securing/SCSVS)]
 
 ## Introduction
 
