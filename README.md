@@ -408,7 +408,7 @@ Implement Checks Effects Interactions Pattern: A secure code-writing pattern tha
 
 #### Resources
 
-- [A Historical Collection of Reentrancy Attacks]()
+- [A Historical Collection of Reentrancy Attacks](https://github.com/ethereum/solidity/issues/12996#issuecomment-1187381059)
 
 
 
