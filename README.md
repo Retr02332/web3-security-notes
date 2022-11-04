@@ -305,6 +305,8 @@ For example, injecting the value `-1` in a `uint256` variable that stores the va
 
 #### Remediation
 
+**Note**: Since version 0.8.0 Solidity automatically reverts on integer overflow and underflow instead of circling the value back to zero.
+
 As seen previously, the problem lies in the variable `amount` which, having no input controls, is subject to a Integer Overflow/Underflow. The solution to this problem is to implement a check on the value received as an input. An example is the following:
 
 ```solidity
