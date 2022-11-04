@@ -15,7 +15,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [EVM Codes](#evm-codes)
   - [Remix](#remix)
   - [Hardhat](#hardhat)
-  - Truffle Suite https://trufflesuite.com/
+  - [Truffle Suite](#truffle-suite)
     - [Ganache](#ganache)
   - Brownie https://eth-brownie.readthedocs.io/en/stable/
   - [Infura.io](#infuraio)
@@ -156,6 +156,13 @@ Hardhat is a development environment for Ethereum software. It consists of diffe
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/hardhat.png" width="75%" height="75%">
 
 ### <ins>Truffle Suite</ins>
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/web3-security-notes/8570c5f3bbc01cd63f3aa95fae7f308a9ecae93b/img/truffle-suite-header.svg" width="35%" height="35%">
+
+"The most comprehensive suite of tools for smart contract development" - Truffle Suite
+
+**Resource**
+- https://trufflesuite.com/docs/
 
 #### Ganache
 
