@@ -58,7 +58,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 **Smart contract weakness classification and Test Cases**<br/>
 - [swcregistry.io](https://swcregistry.io/)
-- [SCSV](https://securing.github.io/SCSVS/)
+- [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
 
 **Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
 - [rekt.news](https://rekt.news/)
@@ -77,7 +77,6 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 **Other Resources**<br/>
 - [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
-- [Smart Contract Security Verification Standard](https://github.com/securing/SCSVS)
 - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 
 ## Introduction
