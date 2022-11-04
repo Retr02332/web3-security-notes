@@ -23,14 +23,17 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [Remix](https://remix.ethereum.org)
   - [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
   - [Truffle Suite](https://trufflesuite.com/docs/)
+    - [Truffle](https://trufflesuite.com/docs/truffle/)
     - [Ganache](https://trufflesuite.com/ganache/)
+    - [Drizzle](https://trufflesuite.com/docs/drizzle/)
+    - [Truffle for VSCode](https://trufflesuite.com/docs/vscode-ext/)
   - [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
   - [Infura.io](https://infuria.io)
   - [Web3.js](#web3js)
-  - Solgraph
+  - [Solgraph](https://github.com/raineorshine/solgraph)
   - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
-  - MythX
-  - Slither
+  - [MythX](https://mythx.io/)
+  - [Slither](https://github.com/crytic/slither)
   - [ZIION](https://docs.ziion.org/)
   - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
   - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
