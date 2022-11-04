@@ -122,7 +122,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
 
-To use it and interact with a contract, use the following commands:
+To use it in Node.js and interact with a contract, use the following commands:
 
 ```javascript
 - node;
