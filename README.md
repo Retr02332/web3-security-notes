@@ -36,7 +36,6 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [Slither](https://github.com/crytic/slither)
   - [ZIION](https://docs.ziion.org/)
   - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
-  - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Vulnerabilities](#vulnerabilities)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
@@ -57,23 +56,29 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 ## Resources
 
-**Web3 Security Library**<br/>
-[github.com/immunefi-team/Web3-Security-Library](https://github.com/immunefi-team/Web3-Security-Library)
-
-**Smart contract weakness classification** and Test Cases <br/>
-[swcregistry.io](https://swcregistry.io/) | [SCSV](https://securing.github.io/SCSVS/)
+**Smart contract weakness classification and Test Cases**<br/>
+- [swcregistry.io](https://swcregistry.io/)
+- [SCSV](https://securing.github.io/SCSVS/)
 
 **Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
-[rekt.news](https://rekt.news/) | [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
+- [rekt.news](https://rekt.news/)
+- [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
 
 **Blogs** <br/> 
-[Immunefi's blog](https://immunefi.medium.com/) | [OpenZeppelin's blog](https://blog.openzeppelin.com/) | [Halborn's blog](https://halborn.com/blog/) | [SlowMist's blog](https://slowmist.medium.com/) | [PWNING's blog](https://pwning.mirror.xyz/)
+- [Immunefi's blog](https://immunefi.medium.com/)
+- [OpenZeppelin's blog](https://blog.openzeppelin.com/)
+- [Halborn's blog](https://halborn.com/blog/)
+- [SlowMist's blog](https://slowmist.medium.com/)
+- [PWNING's blog](https://pwning.mirror.xyz/)
 
 **Public Security Audits** <br/> 
-[OpenZeppelin's public Security Audits](https://blog.openzeppelin.com/security-audits/) | [Halborn's public Security Audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+- [OpenZeppelin's public Security Audits](https://blog.openzeppelin.com/security-audits/)
+- [Halborn's public Security Audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 
-**Smart Contract Security Verification Standard**
-Smart Contract Security Verification Standard is a free 14-part checklist created to standardize the security of smart contracts for developers, architects, security reviewers and vendors. [[Resource](https://github.com/securing/SCSVS)]
+**Other Resources**<br/>
+- [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
+- [Smart Contract Security Verification Standard](https://github.com/securing/SCSVS)
+- [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 
 ## Introduction
 
