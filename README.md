@@ -16,9 +16,9 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [Remix](#remix)
   - [Hardhat](#hardhat)
   - Truffle Suite https://trufflesuite.com/
+    - [Ganache](#ganache)
   - Brownie https://eth-brownie.readthedocs.io/en/stable/
   - [Infura.io](#infuraio)
-  - [Ganache](#ganache)
   - [Web3.js](#web3js)
   - Solgraph
   - [Mythril](#mythril)
@@ -155,13 +155,9 @@ Hardhat is a development environment for Ethereum software. It consists of diffe
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/hardhat.png" width="75%" height="75%">
 
-### <ins>Infura.io</ins>
+### <ins>Truffle Suite</ins>
 
-A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
-
-Once registered in https://infuria.io, go to https://infuria.io/dashboard, click 'Create New Project' at the top right. Once created, you will find yourself in the project settings. In 'Keys' you will see the endpoints to connect to a node on the Ethereum network.
-
-### <ins>Ganache</ins>
+#### Ganache
 
 To have a local test node you can use a program called ganache. This is a fast solution to deploy and test a dApp in total safety.
 
@@ -169,7 +165,14 @@ To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ganache.png" width="75%" height="75%">
 
-Resource: https://trufflesuite.com/ganache/
+**Resource**
+- https://trufflesuite.com/ganache/
+
+### <ins>[Infura.io](https://infuria.io)</ins>
+
+A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
+
+Once registered in infura.io, go to `/dashboard`, click 'Create New Project' at the top right. Once created, you will find yourself in the project settings. In 'Keys' you will see the endpoints to connect to a node on the Ethereum network.
 
 ### <ins>web3.js</ins>
 
@@ -189,7 +192,8 @@ To use it and interact with a contract, use the following commands:
 
 Now you will be able to call the functions from web3.js
 
-Resource: https://web3js.readthedocs.io/en/v1.7.5/
+**Resource**
+- https://web3js.readthedocs.io/en/v1.7.5/
 
 ### <ins>Mythril</ins>
 
@@ -240,8 +244,9 @@ Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 
 ZIION is an open-source Operating System with Kali Linux as a reference point, built for Web3 PenTesting. It contains over 100 tools, utilities, dependencies, and packages to immediately begin working with Solidity/EVM and Rust-based blockchains 
 
-- Link: https://www.ziion.org/
-- Documentation: https://docs.ziion.org/
+**Resources**
+- https://www.ziion.org/
+- https://docs.ziion.org/
 
 ### <ins>OpenZeppelin contracts</ins>
 
@@ -251,11 +256,12 @@ ZIION is an open-source Operating System with Kali Linux as a reference point, b
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 ```
 
-Resource: https://github.com/OpenZeppelin/openzeppelin-contracts
+**Resource**
+- https://github.com/OpenZeppelin/openzeppelin-contracts
 
-### <ins>Simple Security Toolkit</ins>
+### <ins>[Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)</ins>
 
-A collection of practical security-focused guides and checklists for smart contract development, assembled by the Nascent team. Link: [github.com/nascentxyz/simple-security-toolkit](https://github.com/nascentxyz/simple-security-toolkit)
+A collection of practical security-focused guides and checklists for smart contract development, assembled by the Nascent team.
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/simple-security-toolkit.png" width="75%" height="75%">
 
