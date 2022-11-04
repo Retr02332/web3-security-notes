@@ -69,7 +69,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [OpenZeppelin's blog](https://blog.openzeppelin.com/)
 - [Halborn's blog](https://halborn.com/blog/)
 - [SlowMist's blog](https://slowmist.medium.com/)
-- [PWNING's blog](https://pwning.mirror.xyz/)
+- [PWNING](https://pwning.mirror.xyz/)
 
 **Public Security Audits** <br/> 
 - [OpenZeppelin's public Security Audits](https://blog.openzeppelin.com/security-audits/)
