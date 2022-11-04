@@ -57,7 +57,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 ## Resources
 
 **Smart contract weakness classification and Test Cases**<br/>
-- [swcregistry.io](https://swcregistry.io/)
+- [SWC Registry](https://swcregistry.io/)
 - [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
 
 **Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
