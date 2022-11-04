@@ -25,7 +25,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - MythX
   - Slither
   - [ZIION](https://docs.ziion.org/)
-  - [OpenZeppelin contracts](#openzeppelin-contracts)
+  - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
   - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Vulnerabilities](#vulnerabilities)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
@@ -111,26 +111,24 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 
 ## Tools
 
-### <ins>web3.js</ins>
+### <ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
 
 To use it and interact with a contract, use the following commands:
-- `node`;
-- `const Web3 = require('web3')`;
-- `const URL = "http://localhost:8545"`. This is the URL where the contract is deployed, insert the url from Infura.io or Ganache;
-- `const web3 = new Web3(URL)`;
-- `accounts = web3.eth.getAccounts();`
-- `var account`;
-- `accounts.then((v) => {(this.account = v[1])})`;
-- `const address = "<CONTRACT_ADDRESS>"`. Copy and paste the Contract Address;
-- `const abi = <ABI>`. Copy and paste the ABI of the Smart Contract;
-- `const contract = new web3.eth.Contract(abi, address)`.
 
-Now you will be able to call the functions from web3.js
-
-**Resource**
-- https://web3js.readthedocs.io/en/v1.7.5/
+```javascript
+- node;
+- const Web3 = require('web3');
+- const URL = "http://localhost:8545"; /*This is the URL where the contract is deployed, insert the url from Infura.io or Ganache*/
+- const web3 = new Web3(URL);
+- accounts = web3.eth.getAccounts();
+- var account;
+- accounts.then((v) => {(this.account = v[1])});
+- const address = "<CONTRACT_ADDRESS>"; /*Copy and paste the Contract Address*/
+- const abi = <ABI>; /*Copy and paste the ABI of the Smart Contract*/
+- const contract = new web3.eth.Contract(abi, address).
+```
 
 ### <ins>Mythril</ins>
 
@@ -173,14 +171,6 @@ Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
 Caller: [ATTACKER], function: killerize(address), txdata: 0x9fa299cc000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: ('0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef',), value: 0x0
 Caller: [ATTACKER], function: activatekillability(), txdata: 0x84057065, value: 0x0
 Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
-```
-
-### <ins>[OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)</ins>
-
-"OpenZeppelin contracts" is a library for secure smart contract development. A famous example is [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) which helps to fix [Integer Overflow / Underflow](#integer-overflow--underflow). Once installed, you can use the contracts in the library by importing them:
-
-```solidity
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 ```
 
 ## Vulnerabilities
@@ -247,6 +237,12 @@ return (true, c);
 The variable `uint256 c` is the multiplication of the address of recipient `a` by the value of the number of tokens that must receive `b`, giving the result `c`. To make sure that the value `c` is not Overfloded or Underfloded, we check that the division of `c` / `a` is equal to `b`. If not, it would indicate that the value `c` makes no sense and has been compromised.
 
 To fix this vulnerability, and other integer overflows and underflows, the [SafeMath library by OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) can be used. SafeMath provides four functions: Add, Subtract, Multiply, Divide. Each of them performs a check on the operation to verify that the data received in input is valid.
+
+Once "[OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)" are installed, you can use SafeMath from the library by importing it:
+
+```solidity
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+```
 
 ### <ins>Reentrancy Vulnerabilities</ins>
 
