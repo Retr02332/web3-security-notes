@@ -56,7 +56,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 ## Resources
 
-**Smart contract weakness classification and Test Cases**<br/>
+**Smart contract weakness classification**<br/>
 - [SWC Registry](https://swcregistry.io/)
 - [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
 
@@ -71,11 +71,11 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [SlowMist's blog](https://slowmist.medium.com/)
 - [PWNING](https://pwning.mirror.xyz/)
 
-**Public Security Audits** <br/> 
-- [OpenZeppelin's public Security Audits](https://blog.openzeppelin.com/security-audits/)
-- [Halborn's public Security Audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+**Public security audits** <br/> 
+- [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
+- [Halborn's public security audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 
-**Other Resources**<br/>
+**Other resources**<br/>
 - [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
 - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 
