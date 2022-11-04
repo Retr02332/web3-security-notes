@@ -12,7 +12,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [Tools](#tools)
   - [Metamask](#metamask)
   - [Etherscan.io](#etherscanio)
-  - EVM Codes https://www.evm.codes/
+  - [EVM Codes](#evm-codes)
   - [Remix](#remix)
   - [Hardhat](#hardhat)
   - Truffle Suite https://trufflesuite.com/
@@ -111,13 +111,13 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 
 ## Tools
 
-### <ins>Metamask</ins>
+### <ins>[Metamask](https://metamask.io/)</ins>
 
 Metamask is an application available as an extension for browsers such as Firefox and Google Chrome or even as a mobile app.
 
 It allows you to create a wallet for cryptocurrencies. It can be very useful to use a decentralized application.
 
-To install Metamask go here, and follow the instructions> https://metamask.io/
+To install Metamask go here, and follow the instructions > [metamask.io](https://metamask.io/)
 
 To connect to a decentralized app (or DApp) the process is often the same for all applications. An example is UniSwap: unlock the Metamask application, press the Connect Wallet button and select Metamask.
 
@@ -137,11 +137,15 @@ For other types of addresses (wallet and token tracker) there aren't other relev
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/etherscan.png" width="75%" height="75%">
 
-### <ins>Remix</ins>
+### [EVM Codes](https://www.evm.codes/)
+
+EVM Codes is a free, open-source, interactive reference of Ethereum Virtual Machine Opcodes. (Definition from [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/opcode), Opcode: an instruction written in machine code which relates to a particular task.)
+
+<img src="https://raw.githubusercontent.com/seeu-inspace/web3-security-notes/main/img/evm-codes.png" width="75%" height="75%">
+
+### <ins>[Remix](https://remix.ethereum.org)</ins>
 
 An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for manual testing without impacting the real Smart Contract target of the tests. It can also be used to deploy the Smart Contracts in local test nodes.
-
-[remix.ethereum.org](https://remix.ethereum.org)
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/remix.png" width="75%" height="75%">
 
