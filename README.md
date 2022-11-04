@@ -1,4 +1,11 @@
-# Web3 security notes 
+```solidity
+ _       __     __   _____                              _ __                       __           
+| |     / /__  / /_ |__  /   ________  _______  _______(_) /___  __   ____  ____  / /____  _____
+| | /| / / _ \/ __ \ /_ <   / ___/ _ \/ ___/ / / / ___/ / __/ / / /  / __ \/ __ \/ __/ _ \/ ___/
+| |/ |/ /  __/ /_/ /__/ /  (__  )  __/ /__/ /_/ / /  / / /_/ /_/ /  / / / / /_/ / /_/  __(__  ) 
+|__/|__/\___/_.___/____/  /____/\___/\___/\__,_/_/  /_/\__/\__, /  /_/ /_/\____/\__/\___/____/  
+                                                          /____/                                
+```
 ![eth](https://img.shields.io/badge/ETH-riccardomalatesta.eth-blue)
 ![Twitter](https://img.shields.io/twitter/follow/seeu_inspace?style=social)
 
@@ -21,7 +28,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - [Infura.io](https://infuria.io)
   - [Web3.js](#web3js)
   - Solgraph
-  - [Mythril](#mythril)
+  - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
   - MythX
   - Slither
   - [ZIION](https://docs.ziion.org/)
@@ -128,49 +135,6 @@ To use it and interact with a contract, use the following commands:
 - const address = "<CONTRACT_ADDRESS>"; /*Copy and paste the Contract Address*/
 - const abi = <ABI>; /*Copy and paste the ABI of the Smart Contract*/
 - const contract = new web3.eth.Contract(abi, address).
-```
-
-### <ins>Mythril</ins>
-
-Mythril is a security analysis tool for EVM bytecode. It detects security vulnerabilities in smart contracts built for Ethereum, Hedera, Quorum, Vechain, Roostock, Tron and other EVM-compatible blockchains.
-
-To install it `pip3 install mythril`. Then add your [infura](#infuraio) key with `myth --infura-id <INFURA_ID>`.
-
-Usage:
-- `myth analyze <solidity-file>`
-- `myth analyze -a <contract-address>`
-- Specify the maximum number of transaction to explore with `-t <number>`
-- [More can be found here](https://mythril-classic.readthedocs.io/en/master/)
-
-An example ([source](https://github.com/ConsenSys/mythril#usage))
-```bash
-> myth a killbilly.sol -t 3
-==== Unprotected Selfdestruct ====
-SWC ID: 106
-Severity: High
-Contract: KillBilly
-Function name: commencekilling()
-PC address: 354
-Estimated Gas Usage: 974 - 1399
-Any sender can cause the contract to self-destruct.
-Any sender can trigger execution of the SELFDESTRUCT instruction to destroy this contract account and withdraw its balance to an arbitrary address. Review the transaction trace generated for this issue and make sure that appropriate security controls are in place to prevent unrestricted access.
---------------------
-In file: killbilly.sol:22
-
-selfdestruct(msg.sender)
-
---------------------
-Initial State:
-
-Account: [CREATOR], balance: 0x2, nonce:0, storage:{}
-Account: [ATTACKER], balance: 0x1001, nonce:0, storage:{}
-
-Transaction Sequence:
-
-Caller: [CREATOR], calldata: , decoded_data: , value: 0x0
-Caller: [ATTACKER], function: killerize(address), txdata: 0x9fa299cc000000000000000000000000deadbeefdeadbeefdeadbeefdeadbeefdeadbeef, decoded_data: ('0xdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef',), value: 0x0
-Caller: [ATTACKER], function: activatekillability(), txdata: 0x84057065, value: 0x0
-Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 ```
 
 ## Vulnerabilities
