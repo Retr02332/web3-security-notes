@@ -130,13 +130,13 @@ To use it in Node.js and interact with a contract, use the following commands:
 ```javascript
 - node;
 - const Web3 = require('web3');
-- const URL = "http://localhost:8545"; /*This is the URL where the contract is deployed, insert the url from Infura.io or Ganache*/
+- const URL = "http://localhost:8545"; //This is the URL where the contract is deployed, insert the url from Infura.io or Ganache
 - const web3 = new Web3(URL);
 - accounts = web3.eth.getAccounts();
 - var account;
 - accounts.then((v) => {(this.account = v[1])});
-- const address = "<CONTRACT_ADDRESS>"; /*Copy and paste the Contract Address*/
-- const abi = <ABI>; /*Copy and paste the ABI of the Smart Contract*/
+- const address = "<CONTRACT_ADDRESS>"; //Copy and paste the Contract Address
+- const abi = "<ABI>"; //Copy and paste the ABI of the Smart Contract
 - const contract = new web3.eth.Contract(abi, address).
 ```
 
