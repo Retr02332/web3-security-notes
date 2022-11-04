@@ -137,7 +137,7 @@ For other types of addresses (wallet and token tracker) there aren't other relev
 
 <img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/etherscan.png" width="75%" height="75%">
 
-### [EVM Codes](https://www.evm.codes/)
+### <ins>[EVM Codes](https://www.evm.codes/)</ins>
 
 EVM Codes is a free, open-source, interactive reference of Ethereum Virtual Machine Opcodes. (Definition from [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/opcode), Opcode: an instruction written in machine code which relates to a particular task.)
 
