@@ -10,23 +10,23 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [Introduction](#introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - [Tools](#tools)
-  - [Metamask](#metamask)
-  - [Etherscan.io](#etherscanio)
-  - [EVM Codes](#evm-codes)
-  - [Remix](#remix)
-  - [Hardhat](#hardhat)
-  - [Truffle Suite](#truffle-suite)
-    - [Ganache](#ganache)
-  - Brownie https://eth-brownie.readthedocs.io/en/stable/
-  - [Infura.io](#infuraio)
+  - [Metamask](https://metamask.io/)
+  - [Etherscan.io](https://etherscan.io)
+  - [EVM Codes](https://www.evm.codes/)
+  - [Remix](https://remix.ethereum.org)
+  - [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
+  - [Truffle Suite](https://trufflesuite.com/docs/)
+    - [Ganache](https://trufflesuite.com/ganache/)
+  - [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
+  - [Infura.io](https://infuria.io)
   - [Web3.js](#web3js)
   - Solgraph
   - [Mythril](#mythril)
   - MythX
   - Slither
-  - [ZIION](#ziion)
+  - [ZIION](https://docs.ziion.org/)
   - [OpenZeppelin contracts](#openzeppelin-contracts)
-  - [Simple Security Toolkit](#simple-security-toolkit)
+  - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Vulnerabilities](#vulnerabilities)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
@@ -111,76 +111,6 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 
 ## Tools
 
-### <ins>[Metamask](https://metamask.io/)</ins>
-
-Metamask is an application available as an extension for browsers such as Firefox and Google Chrome or even as a mobile app.
-
-It allows you to create a wallet for cryptocurrencies. It can be very useful to use a decentralized application.
-
-To install Metamask go here, and follow the instructions > [metamask.io](https://metamask.io/)
-
-To connect to a decentralized app (or DApp) the process is often the same for all applications. An example is UniSwap: unlock the Metamask application, press the Connect Wallet button and select Metamask.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/uniswap-connect.png" width="75%" height="75%">
-
-### <ins>[Etherscan.io](https://etherscan.io)</ins>
-
-Etherscan.io is the primary reference tool for exploring the Ethereum blockchain.
-
-In a page of a Contract: 
-- In Contract Overview you can see the balance in the contract and the balance of Ethereum;
-- In More Info we can see the address of the wallet that created the contract and with which transaction. Lastly, the token tracker;
-- Below you can see the transactions with method (=> what was done in that transaction), also divided by the various ERC20 tokens and Analytics;
-- Another tab is "Contract", where you can see the code of the smart contract, ABI and EVM Bytecode
-
-For other types of addresses (wallet and token tracker) there aren't other relevant details.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/etherscan.png" width="75%" height="75%">
-
-### <ins>[EVM Codes](https://www.evm.codes/)</ins>
-
-EVM Codes is a free, open-source, interactive reference of Ethereum Virtual Machine Opcodes. (Definition from [Oxford Dictionaries](https://www.oxfordlearnersdictionaries.com/definition/english/opcode), Opcode: an instruction written in machine code which relates to a particular task.)
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/web3-security-notes/main/img/evm-codes.png" width="75%" height="75%">
-
-### <ins>[Remix](https://remix.ethereum.org)</ins>
-
-An IDE that provides a compiler, debugger, and various test accounts with some $ETH for each. This is very useful for manual testing without impacting the real Smart Contract target of the tests. It can also be used to deploy the Smart Contracts in local test nodes.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/remix.png" width="75%" height="75%">
-
-### <ins>Hardhat</ins>
-
-Hardhat is a development environment for Ethereum software. It consists of different components for editing, compiling, debugging and deploying your smart contracts and dApps, all of which work together to create a complete development environment. [Installation](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/hardhat.png" width="75%" height="75%">
-
-### <ins>Truffle Suite</ins>
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/web3-security-notes/8570c5f3bbc01cd63f3aa95fae7f308a9ecae93b/img/truffle-suite-header.svg" width="35%" height="35%">
-
-"The most comprehensive suite of tools for smart contract development" - Truffle Suite
-
-**Resource**
-- https://trufflesuite.com/docs/
-
-#### Ganache
-
-To have a local test node you can use a program called ganache. This is a fast solution to deploy and test a dApp in total safety.
-
-To install it: `npm install -g ganache-cli`. To run it: `ganache-cli`
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ganache.png" width="75%" height="75%">
-
-**Resource**
-- https://trufflesuite.com/ganache/
-
-### <ins>[Infura.io](https://infuria.io)</ins>
-
-A very useful tool used by most decentralized apps for backend development of apps on Ethereum. It allows you to easily interact with a node on Ethereum or with IPFS. The most useful tool is especially Infura API.
-
-Once registered in infura.io, go to `/dashboard`, click 'Create New Project' at the top right. Once created, you will find yourself in the project settings. In 'Keys' you will see the endpoints to connect to a node on the Ethereum network.
-
 ### <ins>web3.js</ins>
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
@@ -245,32 +175,13 @@ Caller: [ATTACKER], function: activatekillability(), txdata: 0x84057065, value: 
 Caller: [ATTACKER], function: commencekilling(), txdata: 0x7c11da20, value: 0x0
 ```
 
-### <ins>ZIION</ins>
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/ziion-os.jpg" width="75%" height="75%">
-
-ZIION is an open-source Operating System with Kali Linux as a reference point, built for Web3 PenTesting. It contains over 100 tools, utilities, dependencies, and packages to immediately begin working with Solidity/EVM and Rust-based blockchains 
-
-**Resources**
-- https://www.ziion.org/
-- https://docs.ziion.org/
-
-### <ins>OpenZeppelin contracts</ins>
+### <ins>[OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)</ins>
 
 "OpenZeppelin contracts" is a library for secure smart contract development. A famous example is [SafeMath.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/utils/math/SafeMath.sol) which helps to fix [Integer Overflow / Underflow](#integer-overflow--underflow). Once installed, you can use the contracts in the library by importing them:
 
 ```solidity
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 ```
-
-**Resource**
-- https://github.com/OpenZeppelin/openzeppelin-contracts
-
-### <ins>[Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)</ins>
-
-A collection of practical security-focused guides and checklists for smart contract development, assembled by the Nascent team.
-
-<img src="https://raw.githubusercontent.com/seeu-inspace/reference-web3-security/main/img/simple-security-toolkit.png" width="75%" height="75%">
 
 ## Vulnerabilities
 
