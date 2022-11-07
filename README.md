@@ -453,7 +453,7 @@ The contract deployer creates randomness by using the previous block's block tim
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract Attack { 
+contract Attacker { 
 	receive() external payable {}
 	function attack_function(GuessRandomNumber randomn) public { 
 		uint answer = uint(keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp)));
