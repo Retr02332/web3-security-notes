@@ -432,15 +432,16 @@ That said, oracles are the most reliable way to have strong randomness.
 **Example of an unsecure smart contract**
 
 ```solidity
-pragma solidity ^0.8.13;
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
 
-contract GuessTheRandomNumber { 
+contract GuessRandomNumber { 
 	constructor() payable {}
 	function guess(uint _guess) public { 
 		uint answer = uint( keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp)) );
 		if (_guess == answer) { 
-			(bool sent, ) = msg.sender.call{value: 1 ether}(""); 
-			require(sent, "Failed to send Ether"); 
+			(bool sent, ) = msg.sender.call{value: 0.1 ether}(""); 
+			require(sent, "Failed transaction"); 
 		} 
 	}
 }
@@ -477,9 +478,9 @@ An example of the fixed example comes from [SlowMist's blog](https://slowmist.me
 
 ```solidity
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.17;
 
-contract GuessTheRandomNumber { 
+contract GuessRandomNumber { 
 	constructor() payable {}
 	uint256 public deadline = block.timestamp + 72 hours;
 	mapping ( address => uint256 ) public Answer;
@@ -500,9 +501,9 @@ contract GuessTheRandomNumber {
 	function claim() public isTime{ 
 		uint256 key = uint256(keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp))); 
 		uint256 answer = Answer[msg.sender]; 
-		require(key == answer , "Sorry, maybe next time."); 
+		require(key == answer , "Sorry, try next time."); 
 		(bool sent, ) = msg.sender.call{value: 1 ether}(""); 
-		require(sent, "Failed to send Ether"); 
+		require(sent, "Failed transaction"); 
 		emit Claim(msg.sender); 
 	}
 
