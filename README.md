@@ -228,7 +228,12 @@ import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 
 A Reentrancy vulnerability is a type of attack to drain the bit-by-bit liquidity of a contract with an insecure code-writing pattern.
 
-An incorrect flow first verifies that the user has a sufficient balance to execute the transaction, then sends the funds to the user. Only if the operation is successful, at that point, does it update the user's balance. The problem arises because if a contract invokes this operation instead of a user, it can create code that generates a loop. This means that an attacker can invoke the withdrawal function many times because it is the same balance that is checked as the initial value.
+An incorrect flow looks like this:
+- It verifies that the user has a sufficient balance to execute the transaction
+- Sends the funds to the user
+- If the operation is successful, the contract updates the user's balance
+
+The problem arises when a contract invokes this operation instead of a user. This can create code that generates a loop, which means that an attacker can invoke the withdrawal function many times because it is the same balance that is checked as the initial value.
 
 An example:
 
