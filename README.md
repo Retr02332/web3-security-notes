@@ -473,7 +473,7 @@ contract Attack {
 
 If the random number is associated with a non-core enterprise, you can generate it using the hash of the following block. Otherwise is better to rely on an oracle.
 
-An example of the fixed example comes from [SlowMist's blog](https://slowmist.medium.com/introduction-to-smart-contract-security-randomness-792cf8997599#6bf1)
+An example of the fixed victim smart contract comes from [SlowMist's blog](https://slowmist.medium.com/introduction-to-smart-contract-security-randomness-792cf8997599#6bf1)
 
 ```solidity
 // SPDX-License-Identifier: MIT
