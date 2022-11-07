@@ -398,7 +398,7 @@ Another problem is code reuse: many programmers reuse code for their application
 
 Weak Randomness arises when the attacker can predict the result of a random number. This can cause some security issues depending on the scenario.
 
-Currently, two techniques are frequently employed to obtain randomness: using block variables or oracles.
+Currently, two techniques are frequently employed to obtain randomness: using **block variables** or **oracles**.
 
 **1. Block variables**
 
