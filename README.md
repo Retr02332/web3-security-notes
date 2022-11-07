@@ -17,25 +17,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [Introduction](#introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - [Tools](#tools)
-  - [Metamask](https://metamask.io/)
-  - [Etherscan.io](https://etherscan.io)
-  - [EVM Codes](https://www.evm.codes/)
-  - [Remix](https://remix.ethereum.org)
-  - [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
-  - [Truffle Suite](https://trufflesuite.com/docs/)
-    - [Truffle](https://trufflesuite.com/docs/truffle/)
-    - [Ganache](https://trufflesuite.com/ganache/)
-    - [Drizzle](https://trufflesuite.com/docs/drizzle/)
-    - [Truffle for VSCode](https://trufflesuite.com/docs/vscode-ext/)
-  - [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
-  - [Infura.io](https://infuria.io)
   - [Web3.js](#web3js)
-  - [Solgraph](https://github.com/raineorshine/solgraph)
-  - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
-  - [MythX](https://mythx.io/)
-  - [Slither](https://github.com/crytic/slither)
-  - [ZIION](https://docs.ziion.org/)
-  - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - [Vulnerabilities](#vulnerabilities)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
@@ -125,7 +107,34 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 
 ## Tools
 
-### <ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>
+**Blockchain exploration**
+- [Metamask](https://metamask.io/)
+- [Etherscan.io](https://etherscan.io)
+- [EVM Codes](https://www.evm.codes/)
+
+**Development Environment**
+- [Remix](https://remix.ethereum.org)
+- [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
+- [Truffle Suite](https://trufflesuite.com/docs/)
+  - [Truffle](https://trufflesuite.com/docs/truffle/)
+  - [Ganache](https://trufflesuite.com/ganache/)
+  - [Drizzle](https://trufflesuite.com/docs/drizzle/)
+  - [Truffle for VSCode](https://trufflesuite.com/docs/vscode-ext/)
+- [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
+- [Infura.io](https://infuria.io)
+- [Solgraph](https://github.com/raineorshine/solgraph)
+
+**Automatic scan/fuzz**
+- [Mythril](https://mythril-classic.readthedocs.io/en/master/)
+- [MythX](https://mythx.io/)
+- [Slither](https://github.com/crytic/slither)
+- [Echidna](https://github.com/crytic/echidna)
+
+**Others**
+- [ZIION](https://docs.ziion.org/)
+- [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
+
+#### <ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
 
