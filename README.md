@@ -446,7 +446,7 @@ contract GuessRandomNumber {
 }
 ```
 
-The contract deployer creates randomness by using the previous block's block time and hash as the random number seed. So an attacker needs to simulate his random number generation method to be rewarded. The attacker smart contract:
+The contract deployer creates randomness by using the previous block's block time and hash as the random number seed. So an attacker needs to simulate his random number generation method to be rewarded.
 
 **Example of the attacker smart contract**
 ```solidity
