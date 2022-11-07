@@ -428,7 +428,7 @@ This comes with some risks, such as being dependent on a third-party to provide 
 
 That said, oracles are the most reliable way to have strong randomness.
 
-**Example of an unsecure smart contract**
+**Example of a vulnerable smart contract**
 
 ```solidity
 // SPDX-License-Identifier: MIT
@@ -437,18 +437,17 @@ pragma solidity ^0.8.17;
 contract GuessRandomNumber { 
 	constructor() payable {}
 	function guess(uint _guess) public { 
-		uint answer = uint( keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp)) );
+		uint answer = uint(keccak256(abi.encodePacked(blockhash(block.number - 1), block.timestamp)));
 		if (_guess == answer) { 
-			(bool sent, ) = msg.sender.call{value: 0.1 ether}(""); 
-			require(sent, "Failed transaction"); 
-		} 
+			(bool sent, ) = msg.sender.call{value: 1 ether}(""); 
+			require(sent, "Transaction failed"); 
+		}
 	}
 }
 ```
 
-The contract deployer creates randomness by using the previous block's block time and hash as the random number seed. So an attacker needs to simulate his random number generation method to be rewarded.
+The contract deployer saves the random number in `answer` and creates randomness by using the previous block's block time and hash as the random number seed. So an attacker needs to simulate his random number generation method to be rewarded.
 
-**Example of the attacker smart contract**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
@@ -476,7 +475,6 @@ If the random number is associated with a non-core enterprise, you can generate 
 
 An example of the fixed victim smart contract comes from [SlowMist's blog](https://slowmist.medium.com/introduction-to-smart-contract-security-randomness-792cf8997599#6bf1)
 
-**Example of the fixed smart contract**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
@@ -504,7 +502,7 @@ contract GuessRandomNumber {
 		uint256 answer = Answer[msg.sender]; 
 		require(key == answer , "Sorry, try next time."); 
 		(bool sent, ) = msg.sender.call{value: 1 ether}(""); 
-		require(sent, "Failed transaction"); 
+		require(sent, "Transaction failed"); 
 		emit Claim(msg.sender); 
 	}
 
