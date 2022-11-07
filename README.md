@@ -448,6 +448,7 @@ contract GuessRandomNumber {
 
 The contract deployer creates randomness by using the previous block's block time and hash as the random number seed. So an attacker needs to simulate his random number generation method to be rewarded. The attacker smart contract:
 
+**Example of the attacker smart contract**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
@@ -475,6 +476,7 @@ If the random number is associated with a non-core enterprise, you can generate 
 
 An example of the fixed victim smart contract comes from [SlowMist's blog](https://slowmist.medium.com/introduction-to-smart-contract-security-randomness-792cf8997599#6bf1)
 
+**Example of the fixed smart contract**
 ```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
