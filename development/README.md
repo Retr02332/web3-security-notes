@@ -15,3 +15,8 @@
 
 **Resource**
 - [vyperlang/vyper](https://github.com/vyperlang/vyper)
+
+## Huff
+
+**Resource**
+- [The Huff Docs](https://docs.huff.sh/)
