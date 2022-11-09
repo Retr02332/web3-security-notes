@@ -17,7 +17,6 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [Introduction](#introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
 - [Tools](#tools)
-  - [Web3.js](#web3js)
 - [Vulnerabilities](#vulnerabilities)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
   - [Reentrancy Vulnerabilities](#reentrancy-vulnerabilities)
@@ -134,7 +133,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [ZIION](https://docs.ziion.org/)
 - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 
-#### <ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>
+**<ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>**
 
 web3.js is very useful for interacting with a smart contract and its APIs. Install it by using the command `npm install web3`.
 
