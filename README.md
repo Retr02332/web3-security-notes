@@ -135,6 +135,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [ZIION](https://docs.ziion.org/)
 - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - [Ethereum Unit Converter](https://eth-converter.com/)
+- [Faucet Link](https://faucetlink.to/)
 
 **<ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>**
 
