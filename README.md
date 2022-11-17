@@ -56,6 +56,7 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 - [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
 - [Halborn's public security audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
 - [code4rena Audit Reports](https://code4rena.com/reports/)
+- [Web3 Security Library | Bugfix Reviews](https://github.com/immunefi-team/Web3-Security-Library/blob/main/BugFixReviews/README.md)
 
 **Other resources**<br/>
 - [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
