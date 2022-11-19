@@ -61,6 +61,10 @@ In any case, the source is almost always public. If it's not public, you can use
 
 [Bitcoin whitepaper](https://bitcoin.org/bitcoin.pdf) | [Ethereum whitepaper](https://ethereum.org/en/whitepaper/)
 
+#### Web3 glossary
+
+You can find more here: [Crypto Glossary | Cryptopedia](https://www.gemini.com/cryptopedia/glossary)
+
 #### Ethereum glossary
 
 - **application binary interface (ABI)** The standard way to interact with contracts in the Ethereum ecosystem, both from outside the blockchain and for contract-to-contract interactions.
@@ -108,7 +112,6 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
 - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Non-EVM blockchains](https://defillama.com/chains/Non-EVM)
-- [Crypto Glossary | Cryptopedia](https://www.gemini.com/cryptopedia/glossary)
 
 ## Tools
 
