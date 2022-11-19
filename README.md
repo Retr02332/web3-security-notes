@@ -99,7 +99,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Halborn's blog](https://halborn.com/blog/)
 - [SlowMist's blog](https://slowmist.medium.com/)
 - [PWNING](https://pwning.mirror.xyz/)
-- ["What Is the Difference Between Blockchain Consensus Algorithms?" by Pixelplex](https://pixelplex.io/blog/best-blockchain-consensus-algorithms/)
+- ["What Is the Difference Between Blockchain Consensus Algorithms?"<br/>by Pixelplex](https://pixelplex.io/blog/best-blockchain-consensus-algorithms/)
 
 **Public security audits** <br/> 
 - [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
