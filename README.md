@@ -13,9 +13,9 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 ## Index
 
-- [Resources](#resources)
 - [Introduction](#introduction)
 - [Development](https://github.com/seeu-inspace/reference-web3-security/tree/main/development)
+- [Resources](#resources)
 - [Tools](#tools)
 - [Vulnerabilities](#vulnerabilities)
   - [Integer Overflow / Underflow](#integer-overflow--underflow)
@@ -34,34 +34,6 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
   - Griefing
   - Deprecated/Historical
   - Force Feeding
-
-## Resources
-
-**Smart contract weakness classification**<br/>
-- [SWC Registry](https://swcregistry.io/)
-- [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
-
-**Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
-- [rekt.news](https://rekt.news/)
-- [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
-
-**Blogs** <br/> 
-- [Immunefi's blog](https://immunefi.medium.com/)
-- [OpenZeppelin's blog](https://blog.openzeppelin.com/)
-- [Halborn's blog](https://halborn.com/blog/)
-- [SlowMist's blog](https://slowmist.medium.com/)
-- [PWNING](https://pwning.mirror.xyz/)
-
-**Public security audits** <br/> 
-- [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
-- [Halborn's public security audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
-- [code4rena Audit Reports](https://code4rena.com/reports/)
-- [Web3 Security Library | Bugfix Reviews](https://github.com/immunefi-team/Web3-Security-Library/blob/main/BugFixReviews/README.md)
-- [Audit Hero findings](https://audit-hero.com/search-findings)
-
-**Other resources**<br/>
-- [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
-- [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 
 ## Introduction
 
@@ -106,6 +78,37 @@ In any case, the source is almost always public. If it's not public, you can use
 - **wei** The smallest denomination of ether. 10<sup>18</sup> wei = 1 ether.
 
 You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glossary/)
+
+## Resources
+
+**Smart contract weakness classification**<br/>
+- [SWC Registry](https://swcregistry.io/)
+- [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
+
+**Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
+- [rekt.news](https://rekt.news/)
+- [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
+
+**Blogs** <br/> 
+- [Immunefi's blog](https://immunefi.medium.com/)
+- [OpenZeppelin's blog](https://blog.openzeppelin.com/)
+- [Halborn's blog](https://halborn.com/blog/)
+- [SlowMist's blog](https://slowmist.medium.com/)
+- [PWNING](https://pwning.mirror.xyz/)
+- ["What Is the Difference Between Blockchain Consensus Algorithms?" by Pixelplex](https://pixelplex.io/blog/best-blockchain-consensus-algorithms/)
+
+**Public security audits** <br/> 
+- [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
+- [Halborn's public security audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+- [code4rena Audit Reports](https://code4rena.com/reports/)
+- [Web3 Security Library | Bugfix Reviews](https://github.com/immunefi-team/Web3-Security-Library/blob/main/BugFixReviews/README.md)
+- [Audit Hero findings](https://audit-hero.com/search-findings)
+
+**Other resources**<br/>
+- [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
+- [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
+- [Non-EVM blockchains](https://defillama.com/chains/Non-EVM)
+- [Crypto Glossary | Cryptopedia](https://www.gemini.com/cryptopedia/glossary)
 
 ## Tools
 
