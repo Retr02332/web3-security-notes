@@ -17,6 +17,12 @@
 **Resource**
 - [vyperlang/vyper](https://github.com/vyperlang/vyper)
 
+## Rust
+
+**Resources**
+- [Learn Rust](https://www.rust-lang.org/learn)
+- [Writing an OS in Rust | Philipp Oppermann's blog](https://os.phil-opp.com/)
+
 ## Huff
 
 **Resource**
