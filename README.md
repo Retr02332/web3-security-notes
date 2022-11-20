@@ -140,7 +140,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 **Visualization**
 - [Solgraph](https://github.com/raineorshine/solgraph)
 - [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler)
-- [Surya](https://github.com/ConsenSys/surya)
+- [Sūrya](https://github.com/ConsenSys/surya)
 
 **Automatic scan/fuzz**
 - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
