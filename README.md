@@ -115,6 +115,8 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
 - [The Daily Gwei](https://thedailygwei.substack.com/)
 - [Secureum](https://www.youtube.com/c/SecureumVideos)
+- [Blockchain Threat Intelligence](https://newsletter.blockthreat.io/)
+- [Week in Ethereum News](https://weekinethereumnews.com/)
 
 ## Tools
 
