@@ -119,17 +119,22 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Metamask](https://metamask.io/)
 - [Etherscan.io](https://etherscan.io)
 - [EVM Codes](https://www.evm.codes/)
+- [BSCscan.com](https://bscscan.com/)
+- [Polygonscan](https://polygonscan.com/)
+- [Bitquery](https://explorer.bitquery.io/)
 
 **Development Environment**
 - [Remix](https://remix.ethereum.org)
 - [Hardhat](https://hardhat.org/hardhat-runner/docs/getting-started#installation)
+- [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
+- [Foundry](https://github.com/foundry-rs/foundry)
 - [Truffle Suite](https://trufflesuite.com/docs/)
   - [Truffle](https://trufflesuite.com/docs/truffle/)
   - [Ganache](https://trufflesuite.com/ganache/)
   - [Drizzle](https://trufflesuite.com/docs/drizzle/)
   - [Truffle for VSCode](https://trufflesuite.com/docs/vscode-ext/)
-- [Brownie](https://eth-brownie.readthedocs.io/en/stable/)
 - [Infura.io](https://infuria.io)
+- [Substrate](https://substrate.io/)
 - [Solgraph](https://github.com/raineorshine/solgraph)
 
 **Automatic scan/fuzz**
