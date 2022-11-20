@@ -64,6 +64,12 @@ In any case, the source is almost always public. If it's not public, you can use
 
 #### Web3 glossary
 
+- **decentralized autonomous organization (DAO)** A blockchain-based organization that is structured by self-enforcing smart contracts and democratically run by its users using open-source code. A vote is taken by network stakeholders on every decision.
+
+- **Liquidity** The capacity to swap an asset without significantly changing its price and the simplicity with which an asset may be turned into cash are both examples of liquidity.
+
+- **Oracle** A blockchain protocol receives external real-world data from Oracles, third-party information service providers. This implies that they can increase the security, veracity, and strength of the data that a blockchain network receives and make use of.
+
 You can find more here: [Crypto Glossary | Cryptopedia](https://www.gemini.com/cryptopedia/glossary)
 
 #### Ethereum glossary
@@ -90,6 +96,13 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [SWC Registry](https://swcregistry.io/)
 - [Smart Contract Security Verification Standard](https://securing.github.io/SCSVS/)
 
+**Public security audits** <br/> 
+- [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
+- [Halborn's public security audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
+- [code4rena Audit Reports](https://code4rena.com/reports/)
+- [Web3 Security Library | Bugfix Reviews](https://github.com/immunefi-team/Web3-Security-Library/blob/main/BugFixReviews/README.md)
+- [Audit Hero findings](https://audit-hero.com/search-findings)
+
 **Rekt updates** To stay up-to-date with the latest crypto hacks <br/> 
 - [rekt.news](https://rekt.news/)
 - [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee)
@@ -101,22 +114,18 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [SlowMist's blog](https://slowmist.medium.com/)
 - [PWNING](https://pwning.mirror.xyz/)
 
-**Public security audits** <br/> 
-- [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
-- [Halborn's public security audits](https://github.com/HalbornSecurity/PublicReports/tree/master/Solidity%20Smart%20Contract%20Audits)
-- [code4rena Audit Reports](https://code4rena.com/reports/)
-- [Web3 Security Library | Bugfix Reviews](https://github.com/immunefi-team/Web3-Security-Library/blob/main/BugFixReviews/README.md)
-- [Audit Hero findings](https://audit-hero.com/search-findings)
+**Newsletters**
+- [The Daily Gwei](https://thedailygwei.substack.com/)
+- [Blockchain Threat Intelligence](https://newsletter.blockthreat.io/)
+- [Week in Ethereum News](https://weekinethereumnews.com/)
 
 **Other resources**<br/>
 - [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
 - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Non-EVM blockchains](https://defillama.com/chains/Non-EVM)
 - [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
-- [The Daily Gwei](https://thedailygwei.substack.com/)
 - [Secureum](https://www.youtube.com/c/SecureumVideos)
-- [Blockchain Threat Intelligence](https://newsletter.blockthreat.io/)
-- [Week in Ethereum News](https://weekinethereumnews.com/)
+
 
 ## Tools
 
