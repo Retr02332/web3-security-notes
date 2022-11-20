@@ -112,6 +112,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Web3 Security Library](https://github.com/immunefi-team/Web3-Security-Library)
 - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Non-EVM blockchains](https://defillama.com/chains/Non-EVM)
+- [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
 
 ## Tools
 
@@ -135,13 +136,18 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
   - [Truffle for VSCode](https://trufflesuite.com/docs/vscode-ext/)
 - [Infura.io](https://infuria.io)
 - [Substrate](https://substrate.io/)
+
+**Visualization**
 - [Solgraph](https://github.com/raineorshine/solgraph)
+- [Solidity Function Profiler](https://github.com/EricR/sol-function-profiler)
+- [Surya](https://github.com/ConsenSys/surya)
 
 **Automatic scan/fuzz**
 - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
 - [MythX](https://mythx.io/)
 - [Manticore](https://github.com/trailofbits/manticore)
 - [Slither](https://github.com/crytic/slither)
+- [Securify](https://github.com/eth-sri/securify2)
 - [Echidna](https://github.com/crytic/echidna)
 - [ERC20 Verifier](https://erc20-verifier.openzeppelin.com/)
 
@@ -150,6 +156,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [OpenZeppelin contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
 - [Ethereum Unit Converter](https://eth-converter.com/)
 - [Faucet Link](https://faucetlink.to/)
+- [abi-decompiler](https://github.com/Decurity/abi-decompiler)
 
 **<ins>[web3.js](https://web3js.readthedocs.io/en/v1.7.5/)</ins>**
 
