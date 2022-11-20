@@ -140,9 +140,10 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 **Automatic scan/fuzz**
 - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
 - [MythX](https://mythx.io/)
+- [Manticore](https://github.com/trailofbits/manticore)
 - [Slither](https://github.com/crytic/slither)
-- [Oyente](https://github.com/enzymefinance/oyente)
 - [Echidna](https://github.com/crytic/echidna)
+- [ERC20 Verifier](https://erc20-verifier.openzeppelin.com/)
 
 **Others**
 - [ZIION](https://docs.ziion.org/)
