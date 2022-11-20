@@ -100,7 +100,6 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Halborn's blog](https://halborn.com/blog/)
 - [SlowMist's blog](https://slowmist.medium.com/)
 - [PWNING](https://pwning.mirror.xyz/)
-- [mevwaifu.eth on mirror.xyz](https://mirror.xyz/mevwaifu.eth/)
 
 **Public security audits** <br/> 
 - [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
