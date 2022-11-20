@@ -39,9 +39,10 @@ Personal notes about Web3 from a hacker's perspective. Here I gather all the res
 
 The **Blockchain** is a set of technologies in which the ledger is structured as a chain of blocks containing transactions and consensus distributed on all nodes of the network. All nodes can participate in the validation process of transactions to be included in the ledger.
 
-There are two types of operations that are carried out to create a cryptocurrency:
+There are two common types of operations that are carried out to create a cryptocurrency:
 - **Mining (Proof-of-Work)** Validation of transactions through the resolution of mathematical problems by miners who use hardware and software dedicated to these operations. Whoever solves the problem first wins the right to add a new block of transactions and a reward;
 - **Staking (Proof-of-Staking)** consists of users who lock their tokens in a node called a validator. The validators take turns checking the transactions on the network. If they perform well, they receive a prize distributed among all the participants of the validator, otherwise, they receive a penalty.
+- Read also ["What Is the Difference Between Blockchain Consensus Algorithms?" by Pixelplex](https://pixelplex.io/blog/best-blockchain-consensus-algorithms/)
 
 **Ethereum** is a blockchain that has popularized an incredible innovation: smart contracts, which are a program or collection of code and data that reside and function in a specific address on the network. Thanks to this factor, it is defined as a "programmable blockchain".
 
@@ -99,7 +100,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Halborn's blog](https://halborn.com/blog/)
 - [SlowMist's blog](https://slowmist.medium.com/)
 - [PWNING](https://pwning.mirror.xyz/)
-- ["What Is the Difference Between Blockchain Consensus Algorithms?"<br/>by Pixelplex](https://pixelplex.io/blog/best-blockchain-consensus-algorithms/)
+- [mevwaifu.eth on mirror.xyz](https://mirror.xyz/mevwaifu.eth/)
 
 **Public security audits** <br/> 
 - [OpenZeppelin's public security audits](https://blog.openzeppelin.com/security-audits/)
@@ -113,6 +114,8 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Simple Security Toolkit](https://github.com/nascentxyz/simple-security-toolkit)
 - [Non-EVM blockchains](https://defillama.com/chains/Non-EVM)
 - [Awesome Ethereum Security](https://github.com/crytic/awesome-ethereum-security)
+- [The Daily Gwei](https://thedailygwei.substack.com/)
+- [Secureum](https://www.youtube.com/c/SecureumVideos)
 
 ## Tools
 
