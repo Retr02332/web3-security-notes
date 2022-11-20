@@ -136,6 +136,7 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 - [Mythril](https://mythril-classic.readthedocs.io/en/master/)
 - [MythX](https://mythx.io/)
 - [Slither](https://github.com/crytic/slither)
+- [Oyente](https://github.com/enzymefinance/oyente)
 - [Echidna](https://github.com/crytic/echidna)
 
 **Others**
