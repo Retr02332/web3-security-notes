@@ -93,7 +93,8 @@ You can find more here: [ethereum.org/en/glossary/](https://ethereum.org/en/glos
 #### Personal security
 
 - Store your assets in a **cold wallet** (hardware wallet) instead of a hot wallet (Centralized exchanges or CEXs). Some good examples are [Ledger](https://www.ledger.com/) and [Trezor](https://trezor.io/);
-- Keep your **seedphrase** in a safe place and don't share it with anyone. If possible, use a solution like [Zeus from Cryptotag](https://cryptotag.io/products/zeus-starter-kit/).
+- Keep your **seedphrase** in a safe place and don't share it with anyone. If possible, use a solution like [Zeus from Cryptotag](https://cryptotag.io/products/zeus-starter-kit/);
+- Also follow Web2 rules, like being aware of phishing.
 
 
 ## Resources
